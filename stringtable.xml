@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project name="3den Enhanced">
     <Package name="Attributes: Mission">
         <Container name="Volume">
@@ -39,13 +39,13 @@
                 <Chinesesimp>随机音乐</Chinesesimp>
             </Key>
             <Key ID="STR_ENH_randomMusic_tooltip">
-                <Original>Will play randomly selected music at mission start. Input must look as follows: classname_1, classname_2, classname_3, classname_n.</Original>
-                <English>Will play randomly selected music at mission start. Input must look as follows: classname_1, classname_2, classname_3, classname_n.</English>
-                <Czech>Bude hrát náhodně vybranou hudbu na začátku mise. Formát musí být následující: classname_1, classname_2, classname_3, classname_n.</Czech>
-                <French>Joue aléatoirement une musique sélectionnée quand la mission débute. Formatez ainsi : ClassName_1, ClassName_2, ClassName_3, ClassName_n.</French>
-                <Spanish>Reproducirá música seleccionada al azar en el inicio de la misión. La entrada debe tener el siguiente aspecto: classname_1, classname_2, classname_3, classname_n.</Spanish>
-                <German>Spielt willkürlich ausgewählte Musikstücke am Anfang der Mission. Eingabe muss folgendermaßen aussehen: Klassenname_1, Klassenname_2, Klassenname_3, Klassenname_n.</German>
-                <Chinesesimp>将在任务开始时随机播放选定的音乐。输入必须如下:classname_1, classname_2, classname_3, classname_n。以此类推</Chinesesimp>
+                <Original>Will play randomly selected music at mission start. Input must look as follows: classname_1 classname_2 classname_3 classname_n.</Original>
+                <English>Will play randomly selected music at mission start. Input must look as follows: classname_1 classname_2 classname_3 classname_n.</English>
+                <Czech>Bude hrát náhodně vybranou hudbu na začátku mise. Formát musí být následující: classname_1 classname_2 classname_3 classname_n.</Czech>
+                <French>Joue aléatoirement une musique sélectionnée quand la mission débute. Formatez ainsi : classname_1 classname_2 classname_3 ClassName_n.</French>
+                <Spanish>Reproducirá música seleccionada al azar en el inicio de la misión. La entrada debe tener el siguiente aspecto: classname_1 classname_2 classname_3 classname_n.</Spanish>
+                <German>Spielt willkürlich ausgewählte Musikstücke am Anfang der Mission. Eingabe muss folgendermaßen aussehen: Klassenname_1 Klassenname_2 Klassenname_3 Klassenname_n.</German>
+                <Chinesesimp>将在任务开始时随机播放选定的音乐。输入必须如下:classname_1 classname_2 classname_3 classname_n。以此类推</Chinesesimp>
             </Key>
             <Key ID="STR_ENH_tools_removeNVGs">
                 <English>Remove NVGs</English>
@@ -58,6 +58,210 @@
                 <German>Schutzvesten entfernen</German>
                 <Original>Remove Vests</Original>
                 <Spanish>Retirar Vests (Chalecos)</Spanish>
+            </Key>
+            <Key ID="STR_ENH_actionCreator_help_tooltip">
+                <English>Get help.</English>
+                <German>Hilfe.</German>
+                <Original>Get help.</Original>
+            </Key>
+            <Key ID="STR_ENH_actionCreator_cancel">
+                <English>Cancel</English>
+                <German>Abbrechen</German>
+                <Original>Cancel</Original>
+                <Chinese>取消</Chinese>
+                <Chinesesimp>取消</Chinesesimp>
+                <Czech>Zrušit</Czech>
+                <French>Annuler</French>
+                <Italian>Annulla</Italian>
+                <Japanese>キャンセル</Japanese>
+                <Korean>작전 취소</Korean>
+                <Polish>Anuluj</Polish>
+                <Portuguese>Cancelar</Portuguese>
+                <Russian>Отмена</Russian>
+                <Spanish>Cancelar</Spanish>
+                <Turkish>İptal</Turkish>
+            </Key>
+            <Key ID="STR_ENH_actionCreator_ok">
+                <English>Ok</English>
+                <German>Ok</German>
+                <Original>Ok</Original>
+            </Key>
+            <Key ID="STR_ENH_debugPath_displayName">
+                <English>Debug Path</English>
+                <German>Debug Pfad</German>
+                <Original>Debug Path</Original>
+            </Key>
+            <Key ID="STR_ENH_debugPath_tooltip">
+                <English>Path of the unit will be marked by multiple arrows. Useful to find areas where AI might not be able to walk or drive. Do only use during mission creation.</English>
+                <German>Pfad  der Einheit wird durch mehrere Pfeile dargestellt. Nützlich um Gegenden zu erkennen in denen die KI nicht fähig ist zu laufen oder zu fahren. Nur während der Missionserstellung zu benutzen.</German>
+                <Original>Path of the unit will be marked by multiple arrows. Useful to find areas where AI might not be able to walk or drive. Do only use during mission creation.</Original>
+            </Key>
+            <Key ID="STR_ENH_debugPath_message">
+                <English>Path debugging enabled for unit %1.</English>
+                <German>Pfad-Debugging für Einheit %1 aktiviert.</German>
+                <Original>Path debugging enabled for unit %1.</Original>
+            </Key>
+            <Key ID="STR_ENH_contextMenu_log3DENIDs">
+                <English>Log 3DEN Entity IDs to Clipboard</English>
+                <Chinesesimp>显示 3DEN 对象IDs</Chinesesimp>
+                <German>3DEN Objekt IDs in Zwischenablage aufzeichnen</German>
+                <Original>Log 3DEN Entity IDs to Clipboard</Original>
+            </Key>
+            <Key ID="STR_ENH_statusbar_numberOfSelectedEntities">
+                <English>Number of selected entities in format:\nObjects-Groups-Triggers-Waypoints-Systems-Markers.</English>
+                <German>Anzahl ausgewählter Entitäten im Format:\nObjekte-Gruppen-Auslöser-Wegpunkte-Systeme-Marker.</German>
+                <Original>Number of selected entities in format:\nObjects-Groups-Triggers-Waypoints-Systems-Markers.</Original>
+            </Key>
+            <Key ID="STR_ENH_airdrop_classes">
+                <English>Classes</English>
+                <German>Klassen</German>
+                <Original>Classes</Original>
+            </Key>
+            <Key ID="STR_ENH_airdrop_condition">
+                <Original>Condition</Original>
+                <English>Condition</English>
+                <Czech>Podmínka</Czech>
+                <German>Bedingung</German>
+                <Russian>Условие</Russian>
+                <Polish>Warunek</Polish>
+                <Italian>Condizione</Italian>
+                <Spanish>Condición</Spanish>
+                <French>Condition</French>
+                <Chinese>條件</Chinese>
+                <Japanese>条件</Japanese>
+                <Korean>조건</Korean>
+                <Portuguese>Condição</Portuguese>
+                <Chinesesimp>状态</Chinesesimp>
+                <Turkish>Koşul</Turkish>
+            </Key>
+            <Key ID="STR_ENH_airdrop_center">
+                <Original>Center Position</Original>
+                <English>Center Position</English>
+                <Czech>Středová pozice</Czech>
+                <French>Centre</French>
+                <Spanish>Posición centrada</Spanish>
+                <German>Anvisierte Position</German>
+                <Chinesesimp>中心位置</Chinesesimp>
+            </Key>
+            <Key ID="STR_ENH_airdrop_radius">
+                <Original>Area Radius</Original>
+                <English>Area Radius</English>
+                <Czech>Oblast</Czech>
+                <French>Rayon de la zone</French>
+                <Spanish>Radio del área</Spanish>
+                <German>Radius des Gebietes</German>
+                <Chinesesimp>区域半径</Chinesesimp>
+            </Key>
+            <Key ID="STR_ENH_airdrop_side">
+                <Original>Side</Original>
+                <Chinese>軍勢</Chinese>
+                <French>Camp</French>
+                <Spanish>Bando</Spanish>
+                <Italian>Parte</Italian>
+                <Polish>Strona</Polish>
+                <Russian>Сторона</Russian>
+                <German>Seite</German>
+                <Czech>Strana</Czech>
+                <English>Side</English>
+                <Portuguese>Lado</Portuguese>
+                <Korean>진영</Korean>
+                <Chinesesimp>一方</Chinesesimp>
+                <Japanese>陣営</Japanese>
+                <Turkish>Taraf</Turkish>
+            </Key>
+            <Key ID="STR_ENH_functions_batchReplace_error">
+                <English>No valid classname!</English>
+                <German>Kein gültiger Klassenname!</German>
+                <Original>No valid classname!</Original>
+            </Key>
+            <Key ID="STR_ENH_functions_onePreviewDebug_garage">
+                <English>Garage</English>
+                <German>Garage</German>
+                <Original>Garage</Original>
+            </Key>
+            <Key ID="STR_ENH_functions_onePreviewDebug_killWest">
+                <English>Kill Units (BLUFOR)</English>
+                <German>Einheiten töten (BLUFOR)</German>
+                <Original>Kill Units (BLUFOR)</Original>
+            </Key>
+            <Key ID="STR_ENH_functions_onePreviewDebug_killEast">
+                <English>Kill Units (OPFOR)</English>
+                <German>Einheiten töten (OPFOR)</German>
+                <Original>Kill Units (OPFOR)</Original>
+            </Key>
+            <Key ID="STR_ENH_functions_onePreviewDebug_killIndep">
+                <English>Kill Units (INDFOR)</English>
+                <German>Einheiten töten (INDFOR)</German>
+                <Original>Kill Units (INDFOR)</Original>
+            </Key>
+            <Key ID="STR_ENH_functions_onePreviewDebug_killCiv">
+                <English>Kill Units (CIVFOR)</English>
+                <German>Einheiten töten (CIVFOR)</German>
+                <Original>Kill Units (CIVFOR)</Original>
+            </Key>
+            <Key ID="STR_ENH_functions_onePreviewDebug_killCursorTarget">
+                <English>Kill Cursor Target</English>
+                <German>Töte anvisiertes Ziel</German>
+                <Original>Kill Cursor Target</Original>
+            </Key>
+            <Key ID="STR_ENH_functions_fillTextureLB_tooltip">
+                <English>Copy path with 'CTRL + C'.</English>
+                <German>Pfad kopieren mit 'CTRL + C</German>
+                <Original>Copy path with 'CTRL + C'.</Original>
+            </Key>
+            <Key ID="STR_ENH_functions_logObjectInfo_name">
+                <English>NAME:</English>
+            </Key>
+            <Key ID="STR_ENH_functions_logObjectInfo_class">
+                <English>CLASS:</English>
+            </Key>
+            <Key ID="STR_ENH_functions_logObjectInfo_vehicleClass">
+                <English>VEHICLE CLASS:</English>
+            </Key>
+            <Key ID="STR_ENH_functions_logObjectInfo_kindOf">
+                <English>KIND OF:</English>
+            </Key>
+            <Key ID="STR_ENH_functions_logObjectInfo_size">
+                <English>SIZE (Width, Length, Height):</English>
+            </Key>
+            <Key ID="STR_ENH_functions_logObjectInfo_selectionNames">
+                <English>SELECTION NAMES:</English>
+            </Key>
+            <Key ID="STR_ENH_functions_logObjectInfo_parents">
+                <English>PARENTS:</English>
+            </Key>
+            <Key ID="STR_ENH_functions_logObjectInfo_objectType">
+                <English>OBJECT TYPE:</English>
+            </Key>
+            <Key ID="STR_ENH_functions_logObjectInfo_materials">
+                <English>MATERIALS:</English>
+            </Key>
+            <Key ID="STR_ENH_functions_logObjectInfo_modelinfo">
+                <English>MODEL INFO:</English>
+            </Key>
+            <Key ID="STR_ENH_functions_logObjectInfo_textures">
+                <English>TEXTURES:</English>
+            </Key>
+            <Key ID="STR_ENH_functions_logObjectInfo_animationNames">
+                <English>ANIMATION NAMES:</English>
+            </Key>
+            <Key ID="STR_ENH_functions_logObjectInfo_primary">
+                <English>Normal object placed in Visitor, part of landscape</English>
+            </Key>
+            <Key ID="STR_ENH_functions_logObjectInfo_network">
+                <English>Road placed in Visitor, part of landscape</English>
+            </Key>
+            <Key ID="STR_ENH_functions_logObjectInfo_temporary">
+                <English>Temporary object (like tracks)</English>
+            </Key>
+            <Key ID="STR_ENH_functions_logObjectInfo_typeVehicle">
+                <English>Some entity added by game</English>
+            </Key>
+            <Key ID="STR_ENH_functions_logObjectInfo_typeTempVehicle">
+                <English>Temporary entity</English>
+            </Key>
+            <Key ID="STR_ENH_functions_logObjectInfo_landDecal">
+                <English>Land decal</English>
             </Key>
         </Container>
         <Container name="Ambient Flyby">
@@ -98,13 +302,21 @@
                 <Chinesesimp>飞机的速度</Chinesesimp>
             </Key>
             <Key ID="STR_ENH_ambientFlyby_speed_displayName">
-                <Original>Speed</Original>
-                <English>Speed</English>
-                <Czech>Rychlost</Czech>
+                <Original>SpeedMode</Original>
+                <English>SpeedMode</English>
+                <Czech>Režim rychlosti</Czech>
+                <German>Geschwindigkeitsmodus</German>
+                <Russian>Скоростной режим</Russian>
+                <Polish>Tryb szybki</Polish>
+                <Italian>Modalità velocità</Italian>
+                <Spanish>Modo Velocidad</Spanish>
                 <French>Vitesse</French>
-                <Spanish>Velocidad</Spanish>
-                <German>Geschwindigkeit</German>
-                <Chinesesimp>速度</Chinesesimp>
+                <Chinese>速度模式</Chinese>
+                <Japanese>スピードモード</Japanese>
+                <Korean>스피드모드</Korean>
+                <Portuguese>Modo de velocidade</Portuguese>
+                <Chinesesimp>速度模式</Chinesesimp>
+                <Turkish>Hız Modu</Turkish>
             </Key>
             <Key ID="STR_ENH_ambientFlyby_iterations_displayName">
                 <Original>Number of Flybys</Original>
@@ -162,12 +374,20 @@
             </Key>
             <Key ID="STR_ENH_ambientFlyby_side_displayName">
                 <Original>Side</Original>
-                <English>Side</English>
+                <Chinese>軍勢</Chinese>
+                <French>Camp</French>
+                <Spanish>Bando</Spanish>
+                <Italian>Parte</Italian>
+                <Polish>Strona</Polish>
+                <Russian>Сторона</Russian>
+                <German>Seite</German>
                 <Czech>Strana</Czech>
-                <French>Faction</French>
-                <Spanish>Facción</Spanish>
-                <German>Zugehörigkeit</German>
-                <Chinesesimp>侧面</Chinesesimp>
+                <English>Side</English>
+                <Portuguese>Lado</Portuguese>
+                <Korean>진영</Korean>
+                <Chinesesimp>一方</Chinesesimp>
+                <Japanese>陣営</Japanese>
+                <Turkish>Taraf</Turkish>
             </Key>
         </Container>
         <Container name="Editable Objects (Zeus)">
@@ -233,11 +453,21 @@
                 <Spanish>No mostrar ping táctico</Spanish>
             </Key>
             <Key ID="STR_ENH_mapIndicatorsDescription_displayName">
-                <Original>Description:</Original>
-                <English>Description:</English>
-                <German>Beschreibung:</German>
-                <Chinesesimp>描述：（Description:）</Chinesesimp>
-                <Spanish>Descripción:</Spanish>
+                <Original>Description</Original>
+                <English>Description</English>
+                <Czech>Popis</Czech>
+                <German>Beschreibung</German>
+                <Russian>Описание</Russian>
+                <Polish>Opis</Polish>
+                <Italian>Descrizione</Italian>
+                <Spanish>Descripción</Spanish>
+                <French>Description</French>
+                <Chinese>說明</Chinese>
+                <Japanese>詳細</Japanese>
+                <Korean>설명</Korean>
+                <Portuguese>Descrição</Portuguese>
+                <Chinesesimp>描述</Chinesesimp>
+                <Turkish>Açıklama</Turkish>
             </Key>
             <Key ID="STR_ENH_mapIndicatorsDescription_description">
                 <Original>Disables map indicators for friendly and hostile units, mines and tactical ping. Overwrites player's difficulty settings!</Original>
@@ -251,12 +481,21 @@
     <Package name="Attributes: Object">
         <Container name="Weapon Sway">
             <Key ID="STR_ENH_weaponSway_displayName">
-                <Original>Weapon Sway</Original>
-                <English>Weapon Sway</English>
-                <Czech>Houpání zbraně</Czech>
+                <Original>Weapon sway</Original>
+                <Chinese>武器搖晃</Chinese>
+                <French>Oscillation de l’arme</French>
                 <Spanish>Balanceo del arma</Spanish>
-                <Chinesesimp>武器的影响</Chinesesimp>
-                <German>Waffenverwacklung</German>
+                <Italian>Dondolio arma</Italian>
+                <Polish>Rozchwianie broni</Polish>
+                <Russian>Колебание ствола</Russian>
+                <German>Waffenschwankung</German>
+                <Czech>Houpání zbraně</Czech>
+                <English>Weapon sway</English>
+                <Portuguese>Oscilação de arma</Portuguese>
+                <Korean>무기 흔들림</Korean>
+                <Chinesesimp>武器摆动</Chinesesimp>
+                <Japanese>武器の揺れ</Japanese>
+                <Turkish>Silah sallanması</Turkish>
             </Key>
             <Key ID="STR_ENH_weaponSway_tooltip">
                 <Original>Sets player's weapon sway. State is preserved even after respawn.</Original>
@@ -301,12 +540,21 @@
         </Container>
         <Container name="Weapon Recoil">
             <Key ID="STR_ENH_weaponRecoil_displayName">
-                <Original>Weapon Recoil</Original>
-                <English>Weapon Recoil</English>
-                <Czech>Zpětný ráz zbraně</Czech>
-                <Spanish>Retroceso del arma</Spanish>
-                <German>Waffenrückstoß</German>
-                <Chinesesimp>武器后坐力</Chinesesimp>
+                <Original>Recoil</Original>
+                <Chinese>後座力</Chinese>
+                <French>Recul</French>
+                <Spanish>Retroceso</Spanish>
+                <Italian>Rinculo</Italian>
+                <Polish>Odrzut</Polish>
+                <Russian>Отдача</Russian>
+                <German>Rückstoß</German>
+                <Czech>Zpětný ráz</Czech>
+                <English>Recoil</English>
+                <Portuguese>Recuo</Portuguese>
+                <Korean>반동</Korean>
+                <Chinesesimp>后坐力</Chinesesimp>
+                <Japanese>反動</Japanese>
+                <Turkish>Geri Tepme</Turkish>
             </Key>
             <Key ID="STR_ENH_weaponRecoil_tooltip">
                 <Original>Sets player's weapon recoil. State is preserved even after respawn.</Original>
@@ -1720,9 +1968,9 @@
                 <Original>Radius of the orbit</Original>
                 <English>Radius of the orbit</English>
                 <Czech>Poloměr orbity</Czech>
-                <French>Rayon de l'orbite</French>
-                <Spanish>Radio de la orbita</Spanish>
                 <German>Radius der Umlaufbahn</German>
+                <Spanish>Radio de la orbita</Spanish>
+                <French>Rayon de l'orbite</French>
                 <Chinesesimp>轨道的半径</Chinesesimp>
             </Key>
             <Key ID="STR_ENH_establishingShot_viewingAngle_displayName">
@@ -2845,11 +3093,21 @@
         </Container>
         <Container name="Module Information">
             <Key ID="STR_ENH_moduleInformation_description">
-                <Original>Description:</Original>
-                <English>Description:</English>
-                <German>Beschreibung:</German>
-                <Chinesesimp>描述：</Chinesesimp>
-                <Spanish>Descripción:</Spanish>
+                <Original>Description</Original>
+                <English>Description</English>
+                <Czech>Popis</Czech>
+                <German>Beschreibung</German>
+                <Russian>Описание</Russian>
+                <Polish>Opis</Polish>
+                <Italian>Descrizione</Italian>
+                <Spanish>Descripción</Spanish>
+                <French>Description</French>
+                <Chinese>說明</Chinese>
+                <Japanese>詳細</Japanese>
+                <Korean>설명</Korean>
+                <Portuguese>Descrição</Portuguese>
+                <Chinesesimp>描述</Chinesesimp>
+                <Turkish>Açıklama</Turkish>
             </Key>
             <Key ID="STR_ENH_moduleInformation_position">
                 <Original>Position:</Original>
@@ -3307,9 +3565,19 @@
             <Key ID="STR_ENH_onMissionDebug_description_displayName">
                 <Original>Description</Original>
                 <English>Description</English>
+                <Czech>Popis</Czech>
                 <German>Beschreibung</German>
-                <Chinesesimp>描述</Chinesesimp>
+                <Russian>Описание</Russian>
+                <Polish>Opis</Polish>
+                <Italian>Descrizione</Italian>
                 <Spanish>Descripción</Spanish>
+                <French>Description</French>
+                <Chinese>說明</Chinese>
+                <Japanese>詳細</Japanese>
+                <Korean>설명</Korean>
+                <Portuguese>Descrição</Portuguese>
+                <Chinesesimp>描述</Chinesesimp>
+                <Turkish>Açıklama</Turkish>
             </Key>
             <Key ID="STR_ENH_onMissionDebug_description_description">
                 <Original>The following settings allow you to easier test your scenarios during preview. The attributes will not be saved in the mission.sqm so they won't effect your scenario when you publish it. Settings are disabled in multiplayer.</Original>
@@ -3516,6 +3784,11 @@
                 <French>Outil d'équipement...</French>
                 <Spanish>Herramientas de equipamiento...</Spanish>
                 <German>Ausrüstungswerkzeuge...</German>
+            </Key>
+            <Key ID="STR_ENH_folder_GUI">
+                <Original>GUI Tools...</Original>
+                <English>GUI Tools...</English>
+                <German>GUI-Werkzeuge...</German>
             </Key>
         </Container>
         <Container name="About">
@@ -4010,34 +4283,27 @@
                 <Chinesesimp>获取对象的大小</Chinesesimp>
             </Key>
             <Key ID="STR_ENH_contextMenu_logPositions2D">
-                <Original>Log Positions (2D)</Original>
-                <English>Log Positions (2D)</English>
+                <Original>Log Positions (2D) to Clipboard</Original>
+                <English>Log Positions (2D) to Clipboard</English>
                 <German>Kopiere Positionen (2D) in Zwischenablage</German>
                 <Chinesesimp>记录位置（2D）</Chinesesimp>
                 <Spanish>Posiciones de registro (2D)</Spanish>
             </Key>
             <Key ID="STR_ENH_contextMenu_logFaction">
-                <Original>Log Faction Names</Original>
-                <English>Log Faction Names</English>
+                <Original>Log Faction Names to Clipboard</Original>
+                <English>Log Faction Names to Clipboard</English>
                 <Czech>Zaznamenat názvy frakcí</Czech>
                 <French>Log du nom des factions</French>
                 <Spanish>Registrar nombres de facción</Spanish>
-                <German>Fraktionsnamen kopieren</German>
+                <German>Kopiere Fraktionsnamen in Zwischenablage</German>
                 <Chinesesimp>记录派系名称</Chinesesimp>
             </Key>
             <Key ID="STR_ENH_contextMenu_logPositions3D">
-                <Original>Log Positions (3D)</Original>
-                <English>Log Positions (3D)</English>
+                <Original>Log Positions (3D) to Clipboard</Original>
+                <English>Log Positions (3D) to Clipboard</English>
                 <German>Kopiere Positionen (3D) in Zwischenablage</German>
                 <Chinesesimp>记录位置（3D）</Chinesesimp>
                 <Spanish>Posiciones de registro (3D)</Spanish>
-            </Key>
-            <Key ID="STR_ENH_contextMenu_show3DENID">
-                <Original>Show 3DEN Entity ID</Original>
-                <English>Show 3DEN Entity ID</English>
-                <German>Zeige 3DEN Objekt ID</German>
-                <Chinesesimp>显示 3DEN 对象ID</Chinesesimp>
-                <Spanish>Mostrar ID de entidad 3DEN</Spanish>
             </Key>
             <Key ID="STR_ENH_contextMenu_measureDistance">
                 <Original>Měření vzdálenosti</Original>
@@ -4055,11 +4321,17 @@
                 <Spanish>Registrar información de objeto</Spanish>
             </Key>
             <Key ID="STR_ENH_contextMenu_logGridPosition">
-                <Original>Log Grid Position</Original>
-                <English>Log Grid Position</English>
+                <Original>Log Grid Position to Clipboard</Original>
+                <English>Log Grid Position to Clipboard</English>
                 <German>Rasterposition in Zwischenablage aufzeichnen</German>
                 <Chinesesimp>记录网格位置</Chinesesimp>
                 <Spanish>Posición de la cuadrícula de registro</Spanish>
+            </Key>
+            <Key ID="STR_ENH_contextMenu_logMissionAttributes">
+                <Original>Log Mission Attributes to Clipboard</Original>
+                <English>Log Mission Attributes to Clipboard</English>
+                <German>Missionsattribute in Zwischenablage aufzeichnen</German>
+                <Chinesesimp>记录网格位置</Chinesesimp>
             </Key>
         </Container>
     </Package>
