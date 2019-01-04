@@ -112,63 +112,6 @@
                 <German>Anzahl ausgewählter Entitäten im Format:\nObjekte-Gruppen-Auslöser-Wegpunkte-Systeme-Marker.</German>
                 <Original>Number of selected entities in format:\nObjects-Groups-Triggers-Waypoints-Systems-Markers.</Original>
             </Key>
-            <Key ID="STR_ENH_airdrop_classes">
-                <English>Classes</English>
-                <German>Klassen</German>
-                <Original>Classes</Original>
-            </Key>
-            <Key ID="STR_ENH_airdrop_condition">
-                <Original>Condition</Original>
-                <English>Condition</English>
-                <Czech>Podmínka</Czech>
-                <German>Bedingung</German>
-                <Russian>Условие</Russian>
-                <Polish>Warunek</Polish>
-                <Italian>Condizione</Italian>
-                <Spanish>Condición</Spanish>
-                <French>Condition</French>
-                <Chinese>條件</Chinese>
-                <Japanese>条件</Japanese>
-                <Korean>조건</Korean>
-                <Portuguese>Condição</Portuguese>
-                <Chinesesimp>状态</Chinesesimp>
-                <Turkish>Koşul</Turkish>
-            </Key>
-            <Key ID="STR_ENH_airdrop_center">
-                <Original>Center Position</Original>
-                <English>Center Position</English>
-                <Czech>Středová pozice</Czech>
-                <French>Centre</French>
-                <Spanish>Posición centrada</Spanish>
-                <German>Anvisierte Position</German>
-                <Chinesesimp>中心位置</Chinesesimp>
-            </Key>
-            <Key ID="STR_ENH_airdrop_radius">
-                <Original>Area Radius</Original>
-                <English>Area Radius</English>
-                <Czech>Oblast</Czech>
-                <French>Rayon de la zone</French>
-                <Spanish>Radio del área</Spanish>
-                <German>Radius des Gebietes</German>
-                <Chinesesimp>区域半径</Chinesesimp>
-            </Key>
-            <Key ID="STR_ENH_airdrop_side">
-                <Original>Side</Original>
-                <Chinese>軍勢</Chinese>
-                <French>Camp</French>
-                <Spanish>Bando</Spanish>
-                <Italian>Parte</Italian>
-                <Polish>Strona</Polish>
-                <Russian>Сторона</Russian>
-                <German>Seite</German>
-                <Czech>Strana</Czech>
-                <English>Side</English>
-                <Portuguese>Lado</Portuguese>
-                <Korean>진영</Korean>
-                <Chinesesimp>一方</Chinesesimp>
-                <Japanese>陣営</Japanese>
-                <Turkish>Taraf</Turkish>
-            </Key>
             <Key ID="STR_ENH_functions_batchReplace_error">
                 <English>No valid classname!</English>
                 <German>Kein gültiger Klassenname!</German>
@@ -262,6 +205,88 @@
             </Key>
             <Key ID="STR_ENH_functions_logObjectInfo_landDecal">
                 <English>Land decal</English>
+            </Key>
+            <Key ID="STR_ENH_tools_importMissionAttributes">
+                <English>Import Mission Attributes from Clipboard</English>
+                <German>Missionsattribute aus Zwischenablage importieren</German>
+                <Original>	STR_ENH_tools_importMissionAttributes	Import Mission Attributes from Clipboard														</Original>
+            </Key>
+            <Key ID="STR_ENH_airdrop_classes_displayName">
+                <English>Classes</English>
+                <German>Klassen</German>
+                <Original>Classes</Original>
+            </Key>
+            <Key ID="STR_ENH_airdrop_condition_displayName">
+                <English>Condition</English>
+                <Chinese>條件</Chinese>
+                <Chinesesimp>状态</Chinesesimp>
+                <Czech>Podmínka</Czech>
+                <French>Condition</French>
+                <German>Bedingung</German>
+                <Italian>Condizione</Italian>
+                <Japanese>条件</Japanese>
+                <Korean>조건</Korean>
+                <Original>Condition</Original>
+                <Polish>Warunek</Polish>
+                <Portuguese>Condição</Portuguese>
+                <Russian>Условие</Russian>
+                <Spanish>Condición</Spanish>
+                <Turkish>Koşul</Turkish>
+            </Key>
+            <Key ID="STR_ENH_airdrop_center_displayName">
+                <English>Center Position</English>
+                <Chinesesimp>中心位置</Chinesesimp>
+                <Czech>Středová pozice</Czech>
+                <French>Centre</French>
+                <German>Anvisierte Position</German>
+                <Original>Center Position</Original>
+                <Spanish>Posición centrada</Spanish>
+            </Key>
+            <Key ID="STR_ENH_airdrop_radius_displayName">
+                <English>Area Radius</English>
+                <Chinesesimp>区域半径</Chinesesimp>
+                <Czech>Oblast</Czech>
+                <French>Rayon de la zone</French>
+                <German>Radius des Gebietes</German>
+                <Original>Area Radius</Original>
+                <Spanish>Radio del área</Spanish>
+            </Key>
+            <Key ID="STR_ENH_airdrop_side_displayName">
+                <English>Side</English>
+                <Chinese>軍勢</Chinese>
+                <Chinesesimp>一方</Chinesesimp>
+                <Czech>Strana</Czech>
+                <French>Camp</French>
+                <German>Seite</German>
+                <Italian>Parte</Italian>
+                <Japanese>陣営</Japanese>
+                <Korean>진영</Korean>
+                <Original>Side</Original>
+                <Polish>Strona</Polish>
+                <Portuguese>Lado</Portuguese>
+                <Russian>Сторона</Russian>
+                <Spanish>Bando</Spanish>
+                <Turkish>Taraf</Turkish>
+            </Key>
+            <Key ID="STR_ENH_airdrop_classes_tooltip">
+                <English>This condition has to be become true during the mission for the airdrop to start.</English>
+                <German>Diese Bedingung muss während der Mission erfüllt werden damit Einheiten abgeworfen werden.</German>
+                <Original>This condition has to be become true during the mission for the airdrop to start.</Original>
+            </Key>
+            <Key ID="STR_ENH_airdrop_center_tooltip">
+                <English>Center of the drop zone.</English>
+                <German>Zentrum des Abwurfes.</German>
+                <Original>Center of the drop zone.</Original>
+            </Key>
+            <Key ID="STR_ENH_airdrop_radius_tooltip">
+                <English>Radius of the drop zone in metres.</English>
+                <German>Radius der Abwurfzone.</German>
+                <Original>Radius of the drop zone in metres.</Original>
+            </Key>
+            <Key ID="STR_ENH_airdrop_side_tooltip">
+                <English>Side of the dropped soldiers. Can be:\WEST, EAST or INDEPENDENT.</English>
+                <German>Seite der Soldaten. Folgende Seiten sind möglich:\nWEST, EAST oder INDEPENDENT</German>
+                <Original>Side of the dropped soldiers. Can be:\WEST, EAST or INDEPENDENT.</Original>
             </Key>
         </Container>
         <Container name="Ambient Flyby">
@@ -4285,7 +4310,7 @@
             <Key ID="STR_ENH_contextMenu_logPositions2D">
                 <Original>Log Positions (2D) to Clipboard</Original>
                 <English>Log Positions (2D) to Clipboard</English>
-                <German>Kopiere Positionen (2D) in Zwischenablage</German>
+                <German>Positionen (2D) in Zwischenablage aufzeichnen</German>
                 <Chinesesimp>记录位置（2D）</Chinesesimp>
                 <Spanish>Posiciones de registro (2D)</Spanish>
             </Key>
@@ -4295,13 +4320,13 @@
                 <Czech>Zaznamenat názvy frakcí</Czech>
                 <French>Log du nom des factions</French>
                 <Spanish>Registrar nombres de facción</Spanish>
-                <German>Kopiere Fraktionsnamen in Zwischenablage</German>
+                <German>Fraktionsnamen in Zwischenablage aufzeichnen</German>
                 <Chinesesimp>记录派系名称</Chinesesimp>
             </Key>
             <Key ID="STR_ENH_contextMenu_logPositions3D">
                 <Original>Log Positions (3D) to Clipboard</Original>
                 <English>Log Positions (3D) to Clipboard</English>
-                <German>Kopiere Positionen (3D) in Zwischenablage</German>
+                <German>Positionen (3D) in Zwischenablage aufzeichnen</German>
                 <Chinesesimp>记录位置（3D）</Chinesesimp>
                 <Spanish>Posiciones de registro (3D)</Spanish>
             </Key>
