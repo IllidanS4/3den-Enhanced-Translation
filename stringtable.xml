@@ -288,6 +288,55 @@
                 <German>Seite der Soldaten. Folgende Seiten sind möglich:\nWEST, EAST oder INDEPENDENT</German>
                 <Original>Side of the dropped soldiers. Can be:\WEST, EAST or INDEPENDENT.</Original>
             </Key>
+            <Key ID="STR_ENH_dynamicSkill_BLUFORSkill_displayname">
+                <English>BLUFOR Skill Settings</English>
+                <German>BLUFOR Fähigkeitseinstellungen</German>
+                <Original>BLUFOR Skill Settings</Original>
+            </Key>
+            <Key ID="STR_ENH_dynamicSkill_skillMin_displayName">
+                <English>Min. Skill</English>
+                <German>Min. Fähigkeit</German>
+                <Original>Min. Skill</Original>
+            </Key>
+            <Key ID="STR_ENH_dynamicSkill_skillAimMin_displayName">
+                <English>Min. Aiming Skill</English>
+                <German>Min. Zielfähigkeit</German>
+                <Original>Min. Aiming Skill</Original>
+            </Key>
+            <Key ID="STR_ENH_dynamicSkill_skillMax_displayName">
+                <English>Max. Skill</English>
+                <German>Max. Fähigkeit</German>
+                <Original>Max. Skill</Original>
+            </Key>
+            <Key ID="STR_ENH_dynamicSkill_skillAimMax_displayName">
+                <English>Max. Aiming Skill</English>
+                <German>Max. Zielfähigkeit</German>
+                <Original>Max. Aiming Skill</Original>
+            </Key>
+            <Key ID="STR_ENH_dynamicSkill_OPFORSkill_displayName">
+                <English>OPFOR Skill Settings</English>
+                <German>OPFOR Fähigkeitseinstellungen</German>
+                <Original>OPFOR Skill Settings</Original>
+            </Key>
+            <Key ID="STR_ENH_dynamicSkill_INDFORSkill_displayName">
+                <English>INDFOR SkillSettings</English>
+                <German>INDFOR Fähigkeitseinstellungen</German>
+                <Original>INDFOR SkillSettings</Original>
+            </Key>
+            <Key ID="STR_ENH_dynamicSkill_enable_tooltip">
+                <English>Calculates AI skill based on player count and set base values. Skill will be dynamically changed when a player connects or disconnects</English>
+                <German>Berechnet den KI-Skill auf Basis der Spieleranzahl und den eingestellten Basiswerten. Die Fähigkeit wird dynamisch angepasst wenn ein Spieler sich verbindet, oder das Spiel verlässt.</German>
+                <Original>Calculates AI skill based on player count and set base values. Skill will be dynamically changed when a player connects or disconnects</Original>
+            </Key>
+            <Key ID="STR_ENH_dynamicSkill_enable_displayName">
+                <English>Enable</English>
+                <Chinesesimp>启用</Chinesesimp>
+                <Czech>Aktivovat</Czech>
+                <French>Activer</French>
+                <German>Anschalten</German>
+                <Original>Enable</Original>
+                <Spanish>Habilitar</Spanish>
+            </Key>
         </Container>
         <Container name="Ambient Flyby">
             <Key ID="STR_ENH_ambientFlyby_type_displayName">
@@ -399,7 +448,6 @@
             </Key>
             <Key ID="STR_ENH_ambientFlyby_side_displayName">
                 <Original>Side</Original>
-                <Chinese>軍勢</Chinese>
                 <French>Camp</French>
                 <Spanish>Bando</Spanish>
                 <Italian>Parte</Italian>
@@ -487,7 +535,6 @@
                 <Italian>Descrizione</Italian>
                 <Spanish>Descripción</Spanish>
                 <French>Description</French>
-                <Chinese>說明</Chinese>
                 <Japanese>詳細</Japanese>
                 <Korean>설명</Korean>
                 <Portuguese>Descrição</Portuguese>
@@ -507,7 +554,6 @@
         <Container name="Weapon Sway">
             <Key ID="STR_ENH_weaponSway_displayName">
                 <Original>Weapon sway</Original>
-                <Chinese>武器搖晃</Chinese>
                 <French>Oscillation de l’arme</French>
                 <Spanish>Balanceo del arma</Spanish>
                 <Italian>Dondolio arma</Italian>
@@ -566,7 +612,6 @@
         <Container name="Weapon Recoil">
             <Key ID="STR_ENH_weaponRecoil_displayName">
                 <Original>Recoil</Original>
-                <Chinese>後座力</Chinese>
                 <French>Recul</French>
                 <Spanish>Retroceso</Spanish>
                 <Italian>Rinculo</Italian>
@@ -3127,7 +3172,6 @@
                 <Italian>Descrizione</Italian>
                 <Spanish>Descripción</Spanish>
                 <French>Description</French>
-                <Chinese>說明</Chinese>
                 <Japanese>詳細</Japanese>
                 <Korean>설명</Korean>
                 <Portuguese>Descrição</Portuguese>
@@ -3597,7 +3641,6 @@
                 <Italian>Descrizione</Italian>
                 <Spanish>Descripción</Spanish>
                 <French>Description</French>
-                <Chinese>說明</Chinese>
                 <Japanese>詳細</Japanese>
                 <Korean>설명</Korean>
                 <Portuguese>Descrição</Portuguese>
