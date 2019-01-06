@@ -2532,7 +2532,7 @@
                 <English>Select an animation and loadout. To save performance, this attribute will only work in single player missions.</English>
                 <Spanish>Seleccione una animación y equipamiento. Para mejorar rendimiento, este atributo sólo funcionará en misiones de un solo jugador.</Spanish>
                 <Chinesesimp>选择动画并加载。 为了保持性能，此属性仅适用于单人任务。</Chinesesimp>
-                <German>Wähle eine Animation und die Ausrüstung. Um Leistung einzusparen, funktioniert dieses Attribut nur in Singleplayermissionen.</German>
+                <German>Wähle eine Animation und die Ausrüstung. Um Leistung einzusparen, funktioniert dieses Attribut nur in Einzelspielermissionen.</German>
             </Key>
             <Key ID="STR_ENH_ambAnimations_reset_text">
                 <Original>Reset</Original>
