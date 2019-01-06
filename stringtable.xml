@@ -337,6 +337,16 @@
                 <Original>Enable</Original>
                 <Spanish>Habilitar</Spanish>
             </Key>
+            <Key ID="STR_ENH_attributeCategory_airdrop">
+                <English>Airdrop</English>
+                <German>Fallschirmabwurf</German>
+                <Original>Airdrop</Original>
+            </Key>
+            <Key ID="STR_ENH_attributeCategory_dynamicSkill">
+                <English>Dynamic AI Skill Settings</English>
+                <German>Dynamische KI-Fähigkeitseinstellungen</German>
+                <Original>	STR_ENH_attributeCategory_dynamicSkill	Dynamic AI Skill Settings														</Original>
+            </Key>
         </Container>
         <Container name="Ambient Flyby">
             <Key ID="STR_ENH_ambientFlyby_type_displayName">
