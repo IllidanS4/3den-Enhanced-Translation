@@ -18,6 +18,6 @@ https://github.com/bux/tabler/releases/tag/v0.7.0
 * Create a pull request
 
 
-#Translation Progress (09.01.2019)
+#Translation Progress
 
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+![09.01.201](/Enh_Translation_Progress.jpg?raw=true "Optional Title")
