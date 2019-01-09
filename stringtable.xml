@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project name="3den Enhanced">
     <Package name="Attributes: Mission">
         <Container name="Volume">
@@ -171,62 +171,80 @@
             </Key>
             <Key ID="STR_ENH_functions_logObjectInfo_name">
                 <English>NAME:</English>
+                <Original>NAME:</Original>
             </Key>
             <Key ID="STR_ENH_functions_logObjectInfo_class">
                 <English>CLASS:</English>
+                <Original>CLASS:</Original>
             </Key>
             <Key ID="STR_ENH_functions_logObjectInfo_vehicleClass">
                 <English>VEHICLE CLASS:</English>
+                <Original>VEHICLE CLASS:</Original>
             </Key>
             <Key ID="STR_ENH_functions_logObjectInfo_kindOf">
                 <English>KIND OF:</English>
+                <Original>KIND OF:</Original>
             </Key>
             <Key ID="STR_ENH_functions_logObjectInfo_size">
                 <English>SIZE (Width, Length, Height):</English>
+                <Original>SIZE (Width, Length, Height):</Original>
             </Key>
             <Key ID="STR_ENH_functions_logObjectInfo_selectionNames">
                 <English>SELECTION NAMES:</English>
+                <Original>SELECTION NAMES:</Original>
             </Key>
             <Key ID="STR_ENH_functions_logObjectInfo_parents">
                 <English>PARENTS:</English>
+                <Original>PARENTS:</Original>
             </Key>
             <Key ID="STR_ENH_functions_logObjectInfo_objectType">
                 <English>OBJECT TYPE:</English>
+                <Original>OBJECT TYPE:</Original>
             </Key>
             <Key ID="STR_ENH_functions_logObjectInfo_materials">
                 <English>MATERIALS:</English>
+                <Original>MATERIALS:</Original>
             </Key>
             <Key ID="STR_ENH_functions_logObjectInfo_modelinfo">
                 <English>MODEL INFO:</English>
+                <Original>MODEL INFO:</Original>
             </Key>
             <Key ID="STR_ENH_functions_logObjectInfo_textures">
                 <English>TEXTURES:</English>
+                <Original>TEXTURES:</Original>
             </Key>
             <Key ID="STR_ENH_functions_logObjectInfo_animationNames">
                 <English>ANIMATION NAMES:</English>
+                <Original>ANIMATION NAMES:</Original>
             </Key>
             <Key ID="STR_ENH_functions_logObjectInfo_primary">
                 <English>Normal object placed in Visitor, part of landscape</English>
+                <Original>Normal object placed in Visitor, part of landscape</Original>
             </Key>
             <Key ID="STR_ENH_functions_logObjectInfo_network">
                 <English>Road placed in Visitor, part of landscape</English>
+                <Original>Road placed in Visitor, part of landscape</Original>
             </Key>
             <Key ID="STR_ENH_functions_logObjectInfo_temporary">
                 <English>Temporary object (like tracks)</English>
+                <Original>Temporary object (like tracks)</Original>
             </Key>
             <Key ID="STR_ENH_functions_logObjectInfo_typeVehicle">
                 <English>Some entity added by game</English>
+                <Original>Some entity added by game</Original>
             </Key>
             <Key ID="STR_ENH_functions_logObjectInfo_typeTempVehicle">
                 <English>Temporary entity</English>
+                <Original>Temporary entity</Original>
             </Key>
             <Key ID="STR_ENH_functions_logObjectInfo_landDecal">
                 <English>Land decal</English>
+                <Original>Land decal</Original>
             </Key>
             <Key ID="STR_ENH_tools_importMissionAttributes">
                 <English>Import Mission Attributes from Clipboard</English>
                 <German>Missionsattribute aus Zwischenablage importieren</German>
-                <Original>	STR_ENH_tools_importMissionAttributes	Import Mission Attributes from Clipboard</Original>
+                <Original>  STR_ENH_tools_importMissionAttributes   Import Mission Attributes from Clipboard</Original>
                 <French>Importer des attributs de mission à partir du Presse-papiers</French>
             </Key>
             <Key ID="STR_ENH_airdrop_classes_displayName">
@@ -377,8 +395,33 @@
             <Key ID="STR_ENH_attributeCategory_dynamicSkill">
                 <English>Dynamic AI Skill Settings</English>
                 <German>Dynamische KI-Fähigkeitseinstellungen</German>
-                <Original>	STR_ENH_attributeCategory_dynamicSkill	Dynamic AI Skill Settings														</Original>
+                <Original>  STR_ENH_attributeCategory_dynamicSkill  Dynamic AI Skill Settings                                                       </Original>
                 <French>Paramètres de compétences AI dynamiques</French>
+            </Key>
+            <Key ID="STR_ENH_CfgORBAT_main_text">
+                <English>3den Enhanced Modification</English>
+                <German>3den Enhanced Modifikation</German>
+                <Original>3den Enhanced Modification</Original>
+            </Key>
+            <Key ID="STR_ENH_CfgORBAT_main_description">
+                <English>Adds new functionalities to Eden Editor.</English>
+                <German>Erweitert den Eden Editor mit neuen Funktionen.</German>
+                <Original>Adds new functionalities to Eden Editor.</Original>
+            </Key>
+            <Key ID="STR_ENH_CfgORBAT_author_text">
+                <English>Author</English>
+                <German>Autor</German>
+                <Original>Author</Original>
+            </Key>
+            <Key ID="STR_ENH_CfgORBAT_author_description">
+                <English>The author of 3den Enhanced.</English>
+                <German>Der Autor von 3den Enhanced.</German>
+                <Original>The author of 3den Enhanced.</Original>
+            </Key>
+            <Key ID="STR_ENH_CfgORBAT_contributer_text">
+                <English>%1 contributed to 3den Enhanced.</English>
+                <German>%1 hat bei der Entwicklung mitgeholfen.</German>
+                <Original>%1 contributed to 3den Enhanced.</Original>
             </Key>
         </Container>
         <Container name="Ambient Flyby">
