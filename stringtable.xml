@@ -52,12 +52,18 @@
                 <German>Nachtsichgeräte entfernen</German>
                 <Original>Remove NVGs</Original>
                 <Spanish>Retirar NVGs (dispositivo de visión nocturna)</Spanish>
+                <Chinesesimp>删除NVG</Chinesesimp>
+                <Czech>Odstraňte NVG</Czech>
+                <French>Supprimer les NVG</French>
             </Key>
             <Key ID="STR_ENH_tools_removeVests">
                 <English>Remove Vests</English>
                 <German>Schutzvesten entfernen</German>
                 <Original>Remove Vests</Original>
                 <Spanish>Retirar Vests (Chalecos)</Spanish>
+                <Chinesesimp>去除背心</Chinesesimp>
+                <Czech>Odstraňte vesty</Czech>
+                <French>Retirer les gilets</French>
             </Key>
         </Container>
         <Container name="Ambient Flyby">
@@ -178,6 +184,7 @@
                 <German>Editierbare Objekte (Zeus)</German>
                 <Chinesesimp>可编辑对象(宙斯)</Chinesesimp>
                 <Spanish>Objetos editables (Zeus)</Spanish>
+                <French>Objets modifiables (Zeus)</French>
             </Key>
             <Key ID="STR_ENH_editableObjZeus_tooltip">
                 <Original>Checks all alive objects (except logics) every 60 seconds and makes them available for editing for all curators.\nIf no curators are in game, the attribute will not work.</Original>
@@ -186,6 +193,7 @@
                 <German>Stellt alle lebenden Objekte alle 60 Sekunden für jeden Kurator zum Bearbeiten zur Verfügung. Wenn keine Kuratoren vorhanden sind, funktioniert dieses Attribut nicht.</German>
                 <Chinesesimp>每60秒检查所有活动对象（逻辑除外）并使其可供所有管理者编辑。\n如果游戏中没有管理者，则该属性将不起作用。</Chinesesimp>
                 <Spanish>Verifica todos los objetos vivos (excepto las lógicas) cada 60 segundos y los pone a disposición de todos los curadores. \ NSi no hay curadores en el juego, el atributo no funcionará.</Spanish>
+                <French>Vérifie tous les objets vivants (sauf les logiques) toutes les 60 secondes et les met à la disposition de tous les conservateurs. \ NSi aucun conservateur n'est en jeu, l'attribut ne fonctionnera pas.</French>
             </Key>
         </Container>
         <Container name="Group Indicator">
@@ -194,6 +202,9 @@
                 <English>Show Group Indicator</English>
                 <German>Zeige Gruppenradar</German>
                 <Spanish>Mostrar indicador de grupo</Spanish>
+                <Chinesesimp>Afficher l'indicateur de groupe</Chinesesimp>
+                <Czech>Zobrazit indikátor skupiny</Czech>
+                <French>Afficher l'indicateur de groupe</French>
             </Key>
             <Key ID="STR_ENH_groupIndicator_tooltip">
                 <Original>Shows a group indicator at the right hand side of the screen.</Original>
@@ -201,6 +212,8 @@
                 <German>Zeigt ein Gruppenradar auf der rechten Bildschirmseite.</German>
                 <Chinesesimp>显示屏幕右侧的状态组表</Chinesesimp>
                 <Spanish>Muestra un indicador de grupo en el lado derecho de la pantalla.</Spanish>
+                <Czech>Zobrazí indikátor skupiny na pravé straně obrazovky.</Czech>
+                <French>Affiche un indicateur de groupe sur le côté droit de l'écran.</French>
             </Key>
         </Container>
         <Container name="Map Indicators">
@@ -210,6 +223,8 @@
                 <German>Freundliche Einheiten nicht zeigen</German>
                 <Chinesesimp>不显示友好单位</Chinesesimp>
                 <Spanish>No mostrar unidades amigas.</Spanish>
+                <Czech>Nezobrazovat přátelské jednotky</Czech>
+                <French>Ne pas montrer les unités amies</French>
             </Key>
             <Key ID="STR_ENH_mapIndicators_enemyText">
                 <Original>Don't show hostile units</Original>
@@ -217,6 +232,8 @@
                 <German>Feindliche Einheiten nicht zeigen</German>
                 <Chinesesimp>不显示敌对单位</Chinesesimp>
                 <Spanish>No mostrar unidades hostiles.</Spanish>
+                <Czech>Nezobrazovat nepřátelské jednotky</Czech>
+                <French>Ne pas montrer les unités hostiles</French>
             </Key>
             <Key ID="STR_ENH_mapIndicators_minesText">
                 <Original>Don't show mines</Original>
@@ -224,6 +241,8 @@
                 <German>Minen nicht zeigen</German>
                 <Chinesesimp>不显示地雷位置</Chinesesimp>
                 <Spanish>No muestres minas</Spanish>
+                <Czech>Nezobrazovat miny</Czech>
+                <French>Ne montre pas les mines</French>
             </Key>
             <Key ID="STR_ENH_mapIndicators_pingText">
                 <Original>Don't show tactical ping</Original>
@@ -231,6 +250,8 @@
                 <German>Taktischen Ping nicht zeigen</German>
                 <Chinesesimp>不显示战术ping值</Chinesesimp>
                 <Spanish>No mostrar ping táctico</Spanish>
+                <Czech>Nezobrazujte taktické ping</Czech>
+                <French>Ne pas montrer le ping tactique</French>
             </Key>
             <Key ID="STR_ENH_mapIndicatorsDescription_displayName">
                 <Original>Description:</Original>
@@ -238,6 +259,8 @@
                 <German>Beschreibung:</German>
                 <Chinesesimp>描述：（Description:）</Chinesesimp>
                 <Spanish>Descripción:</Spanish>
+                <Czech>Popis:</Czech>
+                <French>La description:</French>
             </Key>
             <Key ID="STR_ENH_mapIndicatorsDescription_description">
                 <Original>Disables map indicators for friendly and hostile units, mines and tactical ping. Overwrites player's difficulty settings!</Original>
@@ -245,6 +268,8 @@
                 <German>Deaktiviert Kartenindikatoren für freundliche und feindliche Einheiten sowie Minen und den taktischen Ping. Überschreibt die Einstellungen des Spielers!</German>
                 <Chinesesimp>禁用地图友军、敌军、地雷位置显示和战术ping值。将覆盖玩家的难度设置！</Chinesesimp>
                 <Spanish>Desactiva los contadores de mapas de las unidades amigas y enemigas, las minas y el ping táctico. ¡Anula los ajustes del jugador!</Spanish>
+                <Czech>Zakáže indikátory map pro přátelské a nepřátelské jednotky, doly a taktické ping. Přepíše nastavení obtížnosti hráče!</Czech>
+                <French>Désactive les indicateurs de carte pour les unités amies et hostiles, les mines et le ping tactique. Écrase les paramètres de difficulté du joueur!</French>
             </Key>
         </Container>
     </Package>
@@ -257,6 +282,7 @@
                 <Spanish>Balanceo del arma</Spanish>
                 <Chinesesimp>武器的影响</Chinesesimp>
                 <German>Waffenverwacklung</German>
+                <French>Balancement d'arme</French>
             </Key>
             <Key ID="STR_ENH_weaponSway_tooltip">
                 <Original>Sets player's weapon sway. State is preserved even after respawn.</Original>
@@ -265,6 +291,7 @@
                 <Spanish>Establece el balanceo del arma del jugador. Este estado se conserva incluso después de respawn.</Spanish>
                 <Chinesesimp>设置玩家的武器晃动。 即使在重生之后，状态仍然保留。</Chinesesimp>
                 <German>Bestimmt das Verwackeln der Waffe. Die Einstellung wird bei einem Wiedereinstieg wieder hergestellt.</German>
+                <French>Définit le balancement de l'arme du joueur. L'état est préservé même après la réapparition.</French>
             </Key>
         </Container>
         <Container name="Force Flag">
@@ -274,6 +301,8 @@
                 <German>Flagge anbringen</German>
                 <Chinesesimp>添加标志</Chinesesimp>
                 <Spanish>Añadir bandera</Spanish>
+                <Czech>Přidat vlajku</Czech>
+                <French>Ajouter un drapeau</French>
             </Key>
             <Key ID="STR_ENH_forceFlag_tooltip">
                 <Original>Forces a flag texture onto a flag carrier (unit, vehicle or flag pole). No flag holder is required. </Original>
@@ -281,6 +310,8 @@
                 <German>Bringt eine Flaggentexture an dem Flaggenträger an (Einheit, Fahrzeug oder Fahnenmast). Es wird keine Halterung für die Flagge benötigt.</German>
                 <Chinesesimp>在旗帜载体（单位，载具或旗杆）上强制添加标志和纹理。 不需要旗帜持有人。</Chinesesimp>
                 <Spanish>Fuerza una textura de bandera sobre un portador de bandera (unidad, vehículo o asta de bandera). No se requiere titular de la bandera.</Spanish>
+                <Czech>Vynucuje texturu vlajky na nosiči vlajky (jednotku, vozidlo nebo vlajkový pól). Není vyžadován žádný držák vlajky.</Czech>
+                <French>Impose une texture de drapeau sur un porteur de drapeau (unité, véhicule ou mât de drapeau). Aucun porte-drapeau n'est requis.</French>
             </Key>
         </Container>
         <Container name="Do Stop">
@@ -290,6 +321,8 @@
                 <German>Auf Position bleiben</German>
                 <Chinesesimp>保持位置</Chinesesimp>
                 <Spanish>Mantenerse en posición</Spanish>
+                <Czech>Zůstaňte na pozici</Czech>
+                <French>Restez en position</French>
             </Key>
             <Key ID="STR_ENH_doStop_tooltip">
                 <Original>Prevents AI from moving into formation at mission start.</Original>
@@ -297,6 +330,8 @@
                 <German>Verhindert das die KI beim Missionsstart in Formation tritt.</German>
                 <Chinesesimp>防止AI在任务开始时进入阵型。</Chinesesimp>
                 <Spanish>Evita que la IA se mueva hacia la formación al comienzo de la misión.</Spanish>
+                <Czech>Zabraňuje tomu, aby se AI přestěhovalo do formace na začátku mise.</Czech>
+                <French>Empêche l'IA d'entrer dans la formation au début de la mission.</French>
             </Key>
         </Container>
         <Container name="Weapon Recoil">
@@ -307,6 +342,7 @@
                 <Spanish>Retroceso del arma</Spanish>
                 <German>Waffenrückstoß</German>
                 <Chinesesimp>武器后坐力</Chinesesimp>
+                <French>Recul de l'arme</French>
             </Key>
             <Key ID="STR_ENH_weaponRecoil_tooltip">
                 <Original>Sets player's weapon recoil. State is preserved even after respawn.</Original>
@@ -315,6 +351,7 @@
                 <Spanish>Define el retroceso del arma del jugador. Este estado se conserva incluso después de respawn.</Spanish>
                 <Chinesesimp>设置玩家的武器后坐力。 即使在重生之后，状态仍然保留。</Chinesesimp>
                 <German>Bestimmt den Waffenrückstoß des Spielers. Die Einstellung wird bei einem Wiedereinstieg wieder hergestellt.</German>
+                <French>Définit le recul de l'arme du joueur. L'état est préservé même après la réapparition.</French>
             </Key>
         </Container>
         <Container name="Advanced Damage Vehicle">
@@ -576,6 +613,8 @@
                 <German>Linkes Querruder</German>
                 <Chinesesimp>左副翼</Chinesesimp>
                 <Spanish>Alerón izquierdo</Spanish>
+                <Czech>Levý křidélko</Czech>
+                <French>Aileron gauche</French>
             </Key>
             <Key ID="STR_ENH_advancedDamageVeh_leftRudder">
                 <Original>Left Rudder</Original>
@@ -583,6 +622,8 @@
                 <German>Linkes Ruder</German>
                 <Chinesesimp>左舵</Chinesesimp>
                 <Spanish>Timón izquierdo</Spanish>
+                <Czech>Levý kormidlo</Czech>
+                <French>Gouvernail gauche</French>
             </Key>
             <Key ID="STR_ENH_advancedDamageVeh_RightRudder">
                 <Original>Right Rudder</Original>
@@ -590,6 +631,8 @@
                 <German>Rechtes Ruder</German>
                 <Chinesesimp>右舵</Chinesesimp>
                 <Spanish>Timón derecho</Spanish>
+                <Czech>Pravá kormidla</Czech>
+                <French>Gouvernail droit</French>
             </Key>
             <Key ID="STR_ENH_advancedDamageVeh_rightAileron">
                 <Original>Right Aileron</Original>
@@ -597,6 +640,8 @@
                 <German>Rechtes Querruder</German>
                 <Chinesesimp>右副翼</Chinesesimp>
                 <Spanish>Aileron derecho</Spanish>
+                <Czech>Správný křidélko</Czech>
+                <French>Aileron droit</French>
             </Key>
             <Key ID="STR_ENH_advancedDamageVeh_rightElevator">
                 <Original>Right Elevator</Original>
@@ -604,6 +649,8 @@
                 <German>Rechtes Höhenruder</German>
                 <Chinesesimp>右升降舵</Chinesesimp>
                 <Spanish>Elevador derecho</Spanish>
+                <Czech>Správný výtah</Czech>
+                <French>Ascenseur droit</French>
             </Key>
             <Key ID="STR_ENH_advancedDamageVeh_leftElevator">
                 <Original>Left Elevator</Original>
@@ -611,6 +658,8 @@
                 <German>Linkes Höhenruder</German>
                 <Chinesesimp>左升降舵</Chinesesimp>
                 <Spanish>Elevador izquierdo</Spanish>
+                <Czech>Levý výtah</Czech>
+                <French>Ascenseur gauche</French>
             </Key>
             <Key ID="STR_ENH_advancedDamageVeh_gearLights">
                 <Original>Gear Lights</Original>
@@ -618,6 +667,8 @@
                 <German>Fahrwerklichter</German>
                 <Chinesesimp>车灯</Chinesesimp>
                 <Spanish>Luces de engranajes</Spanish>
+                <Czech>Světla ozubených kol</Czech>
+                <French>Feux de vitesse</French>
             </Key>
             <Key ID="STR_ENH_advancedDamageVeh_categories_allVehicles_title">
                 <Original>Various Vehicles</Original>
@@ -625,6 +676,8 @@
                 <German>Verschiedene Fahrzeuge</German>
                 <Chinesesimp>所有载具</Chinesesimp>
                 <Spanish>Varios vehículos</Spanish>
+                <Czech>Různá vozidla</Czech>
+                <French>Divers véhicules</French>
             </Key>
             <Key ID="STR_ENH_advancedDamageVeh_categories_landVehicles_title">
                 <Original>Land Vehicles</Original>
@@ -632,6 +685,8 @@
                 <German>Landfahrzeuge</German>
                 <Chinesesimp>地面载具</Chinesesimp>
                 <Spanish>Vehículos terrestres</Spanish>
+                <Czech>Pozemní vozidla</Czech>
+                <French>Véhicules terrestres</French>
             </Key>
             <Key ID="STR_ENH_advancedDamageVeh_categories_aeronauticalVehicles_title">
                 <Original>Aeronautical Vehicles</Original>
@@ -639,6 +694,8 @@
                 <German>Luftfahrzeuge</German>
                 <Chinesesimp>航空载具</Chinesesimp>
                 <Spanish>Vehículos aeronáuticos</Spanish>
+                <Czech>Letecké vozy</Czech>
+                <French>Véhicules aéronautiques</French>
             </Key>
             <Key ID="STR_ENH_advancedDamageVeh_categories_allVehicles_description">
                 <Original>Used by various vehicles.</Original>
@@ -646,6 +703,8 @@
                 <German>Verwendet von verschiedenen Fahrzeugen.</German>
                 <Chinesesimp>由所有载具使用</Chinesesimp>
                 <Spanish>Utilizado por varios vehículos.</Spanish>
+                <Czech>Používá se různými vozidly.</Czech>
+                <French>Utilisé par divers véhicules.</French>
             </Key>
             <Key ID="STR_ENH_advancedDamageVeh_categories_landVehicles_description">
                 <Original>Used by land vehicles.</Original>
@@ -653,6 +712,8 @@
                 <German>Verwendet von Landfahrzeugen.</German>
                 <Chinesesimp>由地面载具使用</Chinesesimp>
                 <Spanish>Utilizado por vehículos terrestres.</Spanish>
+                <Czech>Používané pozemními vozidly.</Czech>
+                <French>Utilisé par les véhicules terrestres.</French>
             </Key>
             <Key ID="STR_ENH_advancedDamageVeh_categories_aeronauticalVehicles_description">
                 <Original>Used by aeronautical vehicles.</Original>
@@ -660,6 +721,8 @@
                 <German>Verwendet von Luftfahrzeugen.</German>
                 <Chinesesimp>由航空载具使用</Chinesesimp>
                 <Spanish>Utilizado por vehículos aeronáuticos.</Spanish>
+                <Czech>Používá se leteckými vozidly.</Czech>
+                <French>Utilisé par les véhicules aéronautiques.</French>
             </Key>
         </Container>
         <Container name="Advanced Damage Unit">
@@ -1048,6 +1111,8 @@
                 <German>Minenerkennung</German>
                 <Chinesesimp>地雷探测</Chinesesimp>
                 <Spanish>Detección de minas</Spanish>
+                <Czech>Detekce dolů</Czech>
+                <French>Détection de mines</French>
             </Key>
             <Key ID="STR_ENH_disableAI_weaponAim_displayName">
                 <Original>Weapon Aim</Original>
@@ -1055,6 +1120,8 @@
                 <German>Zielen</German>
                 <Chinesesimp>武器瞄准</Chinesesimp>
                 <Spanish>Objetivo de arma</Spanish>
+                <Czech>Cíl zbraní</Czech>
+                <French>But de l'arme</French>
             </Key>
             <Key ID="STR_ENH_disableAI_move_displayName">
                 <Original>Move</Original>
@@ -1601,6 +1668,8 @@
                 <Spanish>Visibilidad</Spanish>
                 <German>Sichtbarkeit</German>
                 <Chinesesimp>能见度</Chinesesimp>
+                <Czech>viditelnost</Czech>
+                <French>visibilité</French>
             </Key>
             <Key ID="STR_ENH_featureType_tooltip">
                 <Original>Defines the visibility of the object.</Original>
@@ -1608,6 +1677,8 @@
                 <Spanish>Define la visibilidad de un objeto.</Spanish>
                 <German>Beeinflusst die Sichtbarkeit des Objektes.</German>
                 <Chinesesimp>设置对象的可见性。</Chinesesimp>
+                <Czech>Definuje viditelnost objektu.</Czech>
+                <French>Définit la visibilité de l'objet.</French>
             </Key>
         </Container>
         <Container name="Remains Collector">
@@ -1617,6 +1688,8 @@
                 <German>Löschung bei Tod deaktivieren</German>
                 <Chinesesimp>在死亡时停用删除</Chinesesimp>
                 <Spanish>Desactivar la eliminación de la muerte</Spanish>
+                <Czech>Smazání smazání deaktivujte</Czech>
+                <French>Désactiver l'effacement au décès</French>
             </Key>
             <Key ID="STR_ENH_removeFromRemainsCollector_tooltip">
                 <Original>The object won't be deleted after death or destruction.</Original>
@@ -1624,6 +1697,8 @@
                 <German>Das Objekt wird nicht gelöscht wenn es zerstört oder getötet wurde.</German>
                 <Chinesesimp>死亡或毁坏后不会删除该对象。</Chinesesimp>
                 <Spanish>El objeto no será eliminado después de la muerte o destrucción.</Spanish>
+                <Czech>Objekt nebude vymazán po smrti nebo zničení.</Czech>
+                <French>L'objet ne sera pas supprimé après la mort ou la destruction.</French>
             </Key>
         </Container>
         <Container name="KbTell">
@@ -1633,6 +1708,8 @@
                 <German>KbTell Name</German>
                 <Chinesesimp>KbTell 名称</Chinesesimp>
                 <Spanish>KbTell Name</Spanish>
+                <Czech>KbTell Name</Czech>
+                <French>KbTell Nom</French>
             </Key>
             <Key ID="STR_ENH_kbTell_tooltip">
                 <Original>Name used in kbTell dialogues.</Original>
@@ -1640,6 +1717,8 @@
                 <German>Name der in 'KbTell' Dialogen verwendet wird.</German>
                 <Chinesesimp>kbTell对话中使用的名称。</Chinesesimp>
                 <Spanish>Nombre utilizado en los diálogos kbTell.</Spanish>
+                <Czech>Název použitý v dialogu kbTell.</Czech>
+                <French>Nom utilisé dans les dialogues kbTell.</French>
             </Key>
         </Container>
     </Package>
@@ -1787,6 +1866,8 @@
                 <Spanish>Estilo Protocolo APEX</Spanish>
                 <German>APEX Protocol Stil</German>
                 <Chinesesimp>APEX协议样式</Chinesesimp>
+                <Czech>Styl protokolu APEX</Czech>
+                <French>Style de protocole APEX</French>
             </Key>
         </Container>
         <Container name="Terrain Quality">
