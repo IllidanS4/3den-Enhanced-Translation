@@ -16,3 +16,8 @@ https://github.com/bux/tabler/releases/tag/v0.7.0
 * Select a localisation and edit it (filling in missing languages)
 * Save the stringtable.xml
 * Create a pull request
+
+
+# Translation Progress
+
+![09.01.201](/Enh_Translation_Progress.jpg?raw=true "Optional Title")
