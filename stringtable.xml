@@ -631,16 +631,6 @@
                 <French>Ne pas montrer le ping tactique</French>
             </Key>
             <Key ID="STR_ENH_mapIndicatorsDescription_displayName">
-                <Original>Description:</Original>
-                <English>Description:</English>
-                <German>Beschreibung:</German>
-                <Chinesesimp>描述：（Description:）</Chinesesimp>
-                <Spanish>Descripción:</Spanish>
-                <Czech>Popis:</Czech>
-                <French>La description:</French>
-                <French>Ne pas montrer le ping tactique</French>
-            </Key>
-            <Key ID="STR_ENH_mapIndicatorsDescription_displayName">
                 <Original>Description</Original>
                 <English>Description</English>
                 <Czech>Popis</Czech>
@@ -649,7 +639,7 @@
                 <Polish>Opis</Polish>
                 <Italian>Descrizione</Italian>
                 <Spanish>Descripción</Spanish>
-                <French>Description</French>
+                <French>La description:</French>
                 <Japanese>詳細</Japanese>
                 <Korean>설명</Korean>
                 <Portuguese>Descrição</Portuguese>
@@ -671,7 +661,6 @@
         <Container name="Weapon Sway">
             <Key ID="STR_ENH_weaponSway_displayName">
                 <Original>Weapon sway</Original>
-                <French>Oscillation de l’arme</French>
                 <Spanish>Balanceo del arma</Spanish>
                 <Chinesesimp>武器的影响</Chinesesimp>
                 <German>Waffenverwacklung</German>
@@ -679,12 +668,10 @@
                 <Italian>Dondolio arma</Italian>
                 <Polish>Rozchwianie broni</Polish>
                 <Russian>Колебание ствола</Russian>
-                <German>Waffenschwankung</German>
                 <Czech>Houpání zbraně</Czech>
                 <English>Weapon sway</English>
                 <Portuguese>Oscilação de arma</Portuguese>
                 <Korean>무기 흔들림</Korean>
-                <Chinesesimp>武器摆动</Chinesesimp>
                 <Japanese>武器の揺れ</Japanese>
                 <Turkish>Silah sallanması</Turkish>
             </Key>
@@ -695,7 +682,6 @@
                 <Spanish>Establece el balanceo del arma del jugador. Este estado se conserva incluso después de respawn.</Spanish>
                 <Chinesesimp>设置玩家的武器晃动。 即使在重生之后，状态仍然保留。</Chinesesimp>
                 <German>Bestimmt das Verwackeln der Waffe. Die Einstellung wird bei einem Wiedereinstieg wieder hergestellt.</German>
-                <French>Définit le balancement de l'arme du joueur. L'état est préservé même après la réapparition.</French>
                 <French>Règle l"oscillation des armes du joueur. L'état est préservé même après la réapparition.</French>
             </Key>
         </Container>
@@ -727,10 +713,7 @@
                 <German>Auf Position bleiben</German>
                 <Chinesesimp>保持位置</Chinesesimp>
                 <Spanish>Mantenerse en posición</Spanish>
-
                 <Czech>Zůstaňte na pozici</Czech>
-
-
                 <French>Restez en position</French>
             </Key>
             <Key ID="STR_ENH_doStop_tooltip">
@@ -739,25 +722,13 @@
                 <German>Verhindert das die KI beim Missionsstart in Formation tritt.</German>
                 <Chinesesimp>防止AI在任务开始时进入阵型。</Chinesesimp>
                 <Spanish>Evita que la IA se mueva hacia la formación al comienzo de la misión.</Spanish>
-
                 <Czech>Zabraňuje tomu, aby se AI přestěhovalo do formace na začátku mise.</Czech>
-                <French>Empêche l'IA d'entrer dans la formation au début de la mission.</French>
-
                 <French>Empêche l'IA d'entrer en formation au début de la mission.</French>
-
             </Key>
         </Container>
         <Container name="Weapon Recoil">
             <Key ID="STR_ENH_weaponRecoil_displayName">
-
-                <Original>Weapon Recoil</Original>
-                <English>Weapon Recoil</English>
-                <Czech>Zpětný ráz zbraně</Czech>
-                <Spanish>Retroceso del arma</Spanish>
-                <German>Waffenrückstoß</German>
                 <Chinesesimp>武器后坐力</Chinesesimp>
-                <French>Recul de l'arme</French>
-
                 <Original>Recoil</Original>
                 <French>Recul</French>
                 <Spanish>Retroceso</Spanish>
@@ -769,10 +740,8 @@
                 <English>Recoil</English>
                 <Portuguese>Recuo</Portuguese>
                 <Korean>반동</Korean>
-                <Chinesesimp>后坐力</Chinesesimp>
                 <Japanese>反動</Japanese>
                 <Turkish>Geri Tepme</Turkish>
-
             </Key>
             <Key ID="STR_ENH_weaponRecoil_tooltip">
                 <Original>Sets player's weapon recoil. State is preserved even after respawn.</Original>
@@ -1043,10 +1012,7 @@
                 <German>Linkes Querruder</German>
                 <Chinesesimp>左副翼</Chinesesimp>
                 <Spanish>Alerón izquierdo</Spanish>
-
                 <Czech>Levý křidélko</Czech>
-
-
                 <French>Aileron gauche</French>
             </Key>
             <Key ID="STR_ENH_advancedDamageVeh_leftRudder">
@@ -1055,10 +1021,7 @@
                 <German>Linkes Ruder</German>
                 <Chinesesimp>左舵</Chinesesimp>
                 <Spanish>Timón izquierdo</Spanish>
-
                 <Czech>Levý kormidlo</Czech>
-
-
                 <French>Gouvernail gauche</French>
             </Key>
             <Key ID="STR_ENH_advancedDamageVeh_RightRudder">
@@ -1067,10 +1030,7 @@
                 <German>Rechtes Ruder</German>
                 <Chinesesimp>右舵</Chinesesimp>
                 <Spanish>Timón derecho</Spanish>
-
                 <Czech>Pravá kormidla</Czech>
-
-
                 <French>Gouvernail droit</French>
             </Key>
             <Key ID="STR_ENH_advancedDamageVeh_rightAileron">
@@ -1079,10 +1039,7 @@
                 <German>Rechtes Querruder</German>
                 <Chinesesimp>右副翼</Chinesesimp>
                 <Spanish>Aileron derecho</Spanish>
-
                 <Czech>Správný křidélko</Czech>
-
-
                 <French>Aileron droit</French>
             </Key>
             <Key ID="STR_ENH_advancedDamageVeh_rightElevator">
@@ -1091,10 +1048,7 @@
                 <German>Rechtes Höhenruder</German>
                 <Chinesesimp>右升降舵</Chinesesimp>
                 <Spanish>Elevador derecho</Spanish>
-
                 <Czech>Správný výtah</Czech>
-
-
                 <French>Ascenseur droit</French>
             </Key>
             <Key ID="STR_ENH_advancedDamageVeh_leftElevator">
@@ -1103,10 +1057,7 @@
                 <German>Linkes Höhenruder</German>
                 <Chinesesimp>左升降舵</Chinesesimp>
                 <Spanish>Elevador izquierdo</Spanish>
-
                 <Czech>Levý výtah</Czech>
-
-
                 <French>Ascenseur gauche</French>
             </Key>
             <Key ID="STR_ENH_advancedDamageVeh_gearLights">
@@ -1115,10 +1066,7 @@
                 <German>Fahrwerklichter</German>
                 <Chinesesimp>车灯</Chinesesimp>
                 <Spanish>Luces de engranajes</Spanish>
-
                 <Czech>Světla ozubených kol</Czech>
-
-
                 <French>Feux de vitesse</French>
             </Key>
             <Key ID="STR_ENH_advancedDamageVeh_categories_allVehicles_title">
@@ -1127,10 +1075,7 @@
                 <German>Verschiedene Fahrzeuge</German>
                 <Chinesesimp>所有载具</Chinesesimp>
                 <Spanish>Varios vehículos</Spanish>
-
                 <Czech>Různá vozidla</Czech>
-
-
                 <French>Divers véhicules</French>
             </Key>
             <Key ID="STR_ENH_advancedDamageVeh_categories_landVehicles_title">
@@ -1139,10 +1084,7 @@
                 <German>Landfahrzeuge</German>
                 <Chinesesimp>地面载具</Chinesesimp>
                 <Spanish>Vehículos terrestres</Spanish>
-
                 <Czech>Pozemní vozidla</Czech>
-
-
                 <French>Véhicules terrestres</French>
             </Key>
             <Key ID="STR_ENH_advancedDamageVeh_categories_aeronauticalVehicles_title">
@@ -1151,10 +1093,7 @@
                 <German>Luftfahrzeuge</German>
                 <Chinesesimp>航空载具</Chinesesimp>
                 <Spanish>Vehículos aeronáuticos</Spanish>
-
                 <Czech>Letecké vozy</Czech>
-
-
                 <French>Véhicules aéronautiques</French>
             </Key>
             <Key ID="STR_ENH_advancedDamageVeh_categories_allVehicles_description">
@@ -1163,10 +1102,7 @@
                 <German>Verwendet von verschiedenen Fahrzeugen.</German>
                 <Chinesesimp>由所有载具使用</Chinesesimp>
                 <Spanish>Utilizado por varios vehículos.</Spanish>
-
                 <Czech>Používá se různými vozidly.</Czech>
-
-
                 <French>Utilisé par divers véhicules.</French>
             </Key>
             <Key ID="STR_ENH_advancedDamageVeh_categories_landVehicles_description">
@@ -1175,10 +1111,7 @@
                 <German>Verwendet von Landfahrzeugen.</German>
                 <Chinesesimp>由地面载具使用</Chinesesimp>
                 <Spanish>Utilizado por vehículos terrestres.</Spanish>
-
                 <Czech>Používané pozemními vozidly.</Czech>
-
-
                 <French>Utilisé par les véhicules terrestres.</French>
             </Key>
             <Key ID="STR_ENH_advancedDamageVeh_categories_aeronauticalVehicles_description">
@@ -1187,10 +1120,7 @@
                 <German>Verwendet von Luftfahrzeugen.</German>
                 <Chinesesimp>由航空载具使用</Chinesesimp>
                 <Spanish>Utilizado por vehículos aeronáuticos.</Spanish>
-
                 <Czech>Používá se leteckými vozidly.</Czech>
-
-
                 <French>Utilisé par les véhicules aéronautiques.</French>
             </Key>
         </Container>
@@ -1595,8 +1525,6 @@
 
                 <Czech>Cíl zbraní</Czech>
                 <French>But de l'arme</French>
-
-                <French>Weapon Aim</French>
 
             </Key>
             <Key ID="STR_ENH_disableAI_move_displayName">
@@ -2144,12 +2072,8 @@
                 <Spanish>Visibilidad</Spanish>
                 <German>Sichtbarkeit</German>
                 <Chinesesimp>能见度</Chinesesimp>
-
-                <Czech>viditelnost</Czech>
-                <French>visibilité</French>
-
+                <Czech>Viditelnost</Czech>
                 <French>Visibilité</French>
-
             </Key>
             <Key ID="STR_ENH_featureType_tooltip">
                 <Original>Defines the visibility of the object.</Original>
@@ -3005,11 +2929,8 @@
                 <German>Kartenindikatoren</German>
                 <Chinesesimp>地图指标</Chinesesimp>
                 <Spanish>Indicadores de mapa</Spanish>
-
                 <Czech>Mapové indikátory</Czech>
-                <French>Indicateurs de carte</French>
                 <Italian>Indicatori della mappa</Italian>
-
                 <French>Indicateurs de carte</French>
 
             </Key>
@@ -3993,10 +3914,7 @@
                 <German>Städte und Dörfer</German>
                 <Chinesesimp>城市 &amp; 村庄</Chinesesimp>
                 <Spanish>Ciudades y pueblos</Spanish>
-
                 <Czech>Města a vesnice</Czech>
-
-
                 <French>Villes et villages</French>
             </Key>
             <Key ID="STR_ENH_locationList_chapels">
@@ -4005,10 +3923,7 @@
                 <German>Kapellen</German>
                 <Chinesesimp>教堂</Chinesesimp>
                 <Spanish>Capillas</Spanish>
-
                 <Czech>Kaple</Czech>
-
-
                 <French>Chapelles</French>
             </Key>
             <Key ID="STR_ENH_locationList_fuelStations">
@@ -4017,10 +3932,7 @@
                 <German>Tankstellen</German>
                 <Chinesesimp>燃料站</Chinesesimp>
                 <Spanish>Estaciones de combustible</Spanish>
-
                 <Czech>Palivové stanice</Czech>
-
-
                 <French>Stations d'essence</French>
             </Key>
             <Key ID="STR_ENH_locationList_churches">
@@ -4029,12 +3941,8 @@
                 <German>Kirchen</German>
                 <Chinesesimp>教堂</Chinesesimp>
                 <Spanish>Iglesias</Spanish>
-
                 <Czech>Církve</Czech>
-                <French>Des églises</French>
-
                 <French>Églises</French>
-
             </Key>
             <Key ID="STR_ENH_locationList_transmitters">
                 <Original>Transmitters</Original>
@@ -4042,12 +3950,8 @@
                 <German>Transmitter</German>
                 <Chinesesimp>信号传送器</Chinesesimp>
                 <Spanish>Transmisores</Spanish>
-
                 <Czech>Vysílače</Czech>
                 <French>Émetteurs</French>
-
-                <French>Transmitters</French>
-
             </Key>
             <Key ID="STR_ENH_locationList_hospitals">
                 <Original>Hospitals</Original>
@@ -4055,12 +3959,8 @@
                 <German>Krankenhäuser</German>
                 <Chinesesimp>医院</Chinesesimp>
                 <Spanish>Hospitales</Spanish>
-
                 <Czech>Nemocnice</Czech>
-                <French>Les hôpitaux</French>
-
                 <French>Hôpitaux</French>
-
             </Key>
             <Key ID="STR_ENH_locationList_shipwrecks">
                 <Original>Shipwrecks</Original>
@@ -4068,10 +3968,7 @@
                 <German>Schiffswracke</German>
                 <Chinesesimp>沉船废墟</Chinesesimp>
                 <Spanish>Naufragios</Spanish>
-
                 <Czech>Lodní vraky</Czech>
-                <French>Naufrages</French>
-
                 <French>Épaves de navire</French>
 
             </Key>
@@ -4081,10 +3978,7 @@
                 <German>Solar/Dieselkraftwerke</German>
                 <Chinesesimp>太阳能/柴油发电厂</Chinesesimp>
                 <Spanish>Plantas de energía solar / diesel</Spanish>
-
                 <Czech>Solární a dieselové elektrárny</Czech>
-
-
                 <French>Centrales Solaires / Diesel</French>
             </Key>
             <Key ID="STR_ENH_locationList_wavePower">
@@ -4093,12 +3987,8 @@
                 <German>Gezeitenkraftwerke</German>
                 <Chinesesimp>泰坦动力厂</Chinesesimp>
                 <Spanish>Plantas de energía de marea</Spanish>
-
                 <Czech>Přílivové elektrárny</Czech>
-                <French>Centrales marémotrices</French>
-
                 <French>Centrales électriques</French>
-
             </Key>
             <Key ID="STR_ENH_locationList_windPower">
                 <Original>Wind Turbines</Original>
@@ -4106,10 +3996,7 @@
                 <German>Windkraftanlagen</German>
                 <Chinesesimp>风力发电机</Chinesesimp>
                 <Spanish>Turbinas de viento</Spanish>
-
                 <Czech>Větrné turbíny</Czech>
-
-
                 <French>Éoliennes</French>
             </Key>
         </Container>
@@ -4120,10 +4007,7 @@
                 <German>Suchen in Arbeit. Bitte warten.</German>
                 <Chinesesimp>仍在搜索中。 请稍候。</Chinesesimp>
                 <Spanish>Sigue buscando. Por favor espera.</Spanish>
-
                 <Czech>Stále hledáme. Prosím, čekejte.</Czech>
-
-
                 <French>Toujours à la recherche. S'il vous plaît, attendez.</French>
             </Key>
         </Container>
@@ -4134,10 +4018,7 @@
                 <German>Klassen durchsucht: #%1 von #%2 Texturen gefunden: #%3</German>
                 <Chinesesimp>类别（class）搜索：#%1 of #%2 纹理找到：#%3</Chinesesimp>
                 <Spanish>Clases buscadas: #% 1 de #% 2 Texturas encontradas: #% 3</Spanish>
-
                 <Czech>Hledané třídy: #% 1 z #% 2 nalezených textur: #% 3</Czech>
-                <French>Classes recherchées: #% 1 sur #% 2 Textures trouvées: #% 3</French>
-
                 <French>Classes recherchées: #%1 sur #%2 Textures trouvées: #%3</French>
 
             </Key>
@@ -4149,10 +4030,6 @@
                 <German>Distanz 2D/3D: %1 / %2 m Reisezeit (zu Fuß): ~ %3 min</German>
                 <Chinesesimp>距离2D/3D: %1 / %2 m旅行时间(步行):~ %3分钟</Chinesesimp>
                 <Spanish>Distancia 2D / 3D:% 1 /% 2 m Tiempo de viaje (a pie): ~% 3 min</Spanish>
-
-                <Czech>Vzdálenost 2D / 3D:% 1 /% 2 m Cestovní čas (pěšky): ~% 3 min</Czech>
-                <French>Distance 2D / 3D:% 1 /% 2 m Durée du trajet (à pied): ~% 3 min</French>
-
                 <French>Distance 2D / 3D:%1 /%2 m Durée du trajet (à pied): ~%3 ​​min</French>
 
             </Key>
@@ -4162,10 +4039,7 @@
                 <German>Zweiten Punkt auswählen</German>
                 <Chinesesimp>选择第二点</Chinesesimp>
                 <Spanish>Seleccione segundo punto</Spanish>
-
                 <Czech>Vyberte druhý bod</Czech>
-
-
                 <French>Sélectionnez le deuxième point</French>
             </Key>
         </Container>
@@ -4184,23 +4058,18 @@
             <Key ID="STR_ENH_onMissionDebug_description_displayName">
                 <Original>Description</Original>
                 <English>Description</English>
-                <Czech>Popis</Czech>
                 <German>Beschreibung</German>
                 <Russian>Описание</Russian>
                 <Polish>Opis</Polish>
                 <Italian>Descrizione</Italian>
                 <Spanish>Descripción</Spanish>
-
                 <Czech>Popis</Czech>
                 <French>La description</French>
-
-                <French>Description</French>
                 <Japanese>詳細</Japanese>
                 <Korean>설명</Korean>
                 <Portuguese>Descrição</Portuguese>
                 <Chinesesimp>描述</Chinesesimp>
                 <Turkish>Açıklama</Turkish>
-
             </Key>
             <Key ID="STR_ENH_onMissionDebug_description_description">
                 <Original>The following settings allow you to easier test your scenarios during preview. The attributes will not be saved in the mission.sqm so they won't effect your scenario when you publish it. Settings are disabled in multiplayer.</Original>
@@ -4208,10 +4077,7 @@
                 <German>Die folgenden Einstellungen erlauben dir deine Szenarios während der Szenariovorschau leichter zu testen. Die Attribute werden nicht in der mission.sqm gespeichert. Einstellungen sind im Multiplayer-Modus deaktiviert.</German>
                 <Chinesesimp>以下设置可让您在预览期间更轻松地测试场景。 这些属性不会保存在mission.sqm中，因此在发布时它们不会影响您的方案。 在多人游戏中禁用设置。</Chinesesimp>
                 <Spanish>La siguiente configuración le permite probar más fácilmente sus escenarios durante la vista previa. Los atributos no se guardarán en mission.sqm, por lo que no afectarán su escenario cuando lo publique. Los ajustes están deshabilitados en el modo multijugador.</Spanish>
-
                 <Czech>Následující nastavení umožňují snadnější testování scénářů během náhledu. Atributy nebudou uloženy v mission.sqm, takže nebudou mít vliv na váš scénář při jeho publikování. V multiplayeru jsou nastavení zakázána.</Czech>
-
-
                 <French>Les paramètres suivants vous permettent de tester plus facilement vos scénarios lors de la prévisualisation. Les attributs ne seront pas sauvegardés dans le fichier mission.sqm, ils n'affecteront donc pas votre scénario lorsque vous le publiez. Les paramètres sont désactivés en multijoueur.</French>
             </Key>
             <Key ID="STR_ENH_onMissionDebug_awareness_displayName">
@@ -4220,10 +4086,7 @@
                 <German>Kenntnisstand anzeigen</German>
                 <Chinesesimp>显示警觉等级</Chinesesimp>
                 <Spanish>Mostrar nivel de conciencia</Spanish>
-
                 <Czech>Zobrazit úroveň povědomí</Czech>
-
-
                 <French>Montrer le niveau de conscience</French>
             </Key>
             <Key ID="STR_ENH_onMissionDebug_awareness_tooltip">
@@ -4232,10 +4095,7 @@
                 <German>Während der Szenariovorschau zeigt ine Grafik an wie viel jede Seite über den Spieler weis.</German>
                 <Chinesesimp>图形将显示场景预览期间每个方面对玩家的了解程度。</Chinesesimp>
                 <Spanish>Un gráfico mostrará cuánto sabe cada lado sobre el jugador durante la vista previa del escenario.</Spanish>
-
                 <Czech>Grafika ukáže, kolik ví každý hráč o přehrávači během přehledu scénáře.</Czech>
-
-
                 <French>Un graphique montrera ce que chaque côté sait sur le joueur lors de la prévisualisation du scénario.</French>
             </Key>
             <Key ID="STR_ENH_onMissionDebug_zeus_displayName">
@@ -4244,10 +4104,7 @@
                 <German>Zeus aktivieren</German>
                 <Chinesesimp>开启宙斯</Chinesesimp>
                 <Spanish>Habilitar Zeus</Spanish>
-
                 <Czech>Povolit Zeus</Czech>
-
-
                 <French>Activer Zeus</French>
             </Key>
             <Key ID="STR_ENH_onMissionDebug_arsenal_displayName">
@@ -4256,10 +4113,7 @@
                 <German>Arsenal aktivieren</German>
                 <Chinesesimp>开启军火库</Chinesesimp>
                 <Spanish>Habilitar arsenal</Spanish>
-
                 <Czech>Povolit Arsenal</Czech>
-
-
                 <French>Activer Arsenal</French>
             </Key>
             <Key ID="STR_ENH_onMissionDebug_garage_displayName">
@@ -4268,10 +4122,7 @@
                 <German>Virtuelle Garage aktivieren</German>
                 <Chinesesimp>开启军火车库</Chinesesimp>
                 <Spanish>Habilitar garaje virtual</Spanish>
-
                 <Czech>Povolit virtuální garáž</Czech>
-
-
                 <French>Activer le garage virtuel</French>
             </Key>
             <Key ID="STR_ENH_onMissionDebug_captive_tooltip">
@@ -4280,10 +4131,7 @@
                 <German>Der Spieler wird 'unsichtbar' für andere Einheiten während der Szenariovorschau sein.</German>
                 <Chinesesimp>在场景预览期间，其他单位的玩家单位将“隐藏”。</Chinesesimp>
                 <Spanish>La unidad del jugador será "invisible" para otras unidades durante la vista previa del escenario.</Spanish>
-
                 <Czech>Jednotka přehrávače bude během prohlížení scénáře "neviditelná" pro další jednotky.</Czech>
-
-
                 <French>L'unité du joueur sera «invisible» pour les autres unités lors de la prévisualisation du scénario.</French>
             </Key>
             <Key ID="STR_ENH_onPreviewDebug_invulnerability_displayName">
@@ -4292,10 +4140,7 @@
                 <German>Unverwundbarkeit anschalten</German>
                 <Chinesesimp>启用无敌</Chinesesimp>
                 <Spanish>Habilitar invulnerabilidad</Spanish>
-
                 <Czech>Povolit nezranitelnost</Czech>
-
-
                 <French>Activer l'invulnérabilité</French>
             </Key>
             <Key ID="STR_ENH_onPreviewDebug_stamina_displayName">
@@ -4304,10 +4149,7 @@
                 <German>Ausdauer ausschalten</German>
                 <Chinesesimp>禁用耐力</Chinesesimp>
                 <Spanish>Desactivar la resistencia</Spanish>
-
                 <Czech>Zakázat Stamina</Czech>
-
-
                 <French>Désactiver l'endurance</French>
             </Key>
             <Key ID="STR_ENH_onPreviewDebug_FPS_displayName">
@@ -4316,10 +4158,7 @@
                 <German>FPS anzeigen</German>
                 <Chinesesimp>显示FPS</Chinesesimp>
                 <Spanish>Mostrar fps</Spanish>
-
                 <Czech>Zobrazit FPS</Czech>
-
-
                 <French>Afficher fps</French>
             </Key>
             <Key ID="STR_ENH_onPreviewDebug_bulletTracking_displayName">
@@ -4376,10 +4215,7 @@
                 <German>Einheiten töten (Westen)</German>
                 <Chinesesimp>杀死单位（西方）</Chinesesimp>
                 <Spanish>Matar Unidades (Oeste)</Spanish>
-
                 <Czech>Zabíjet jednotky (západ)</Czech>
-
-
                 <French>Tuer des unités (Ouest)</French>
             </Key>
             <Key ID="STR_ENH_onPreviewDebug_killUnits_tooltip">
@@ -4388,10 +4224,7 @@
                 <German>Fügt einen Eintrag während der Szenariovorschau zum Aktionsmenü hinzu welche alle Einheiten der gegebenen Seite tötet.</German>
                 <Chinesesimp>在场景预览过程中向动作菜单添加一个栏目，该栏目将立即杀死给定范围的所有单元。</Chinesesimp>
                 <Spanish>Agrega una entrada al menú de acción durante la vista previa del escenario que mata instantáneamente todas las unidades del lado dado.</Spanish>
-
                 <Czech>Přidá vstup do nabídky akcí během náhledu scénáře, který okamžitě zabije všechny jednotky dané strany.</Czech>
-
-
                 <French>Ajoute une entrée au menu des actions lors de la prévisualisation du scénario qui tue instantanément toutes les unités d’un côté donné.</French>
             </Key>
             <Key ID="STR_ENH_onPreviewDebug_killCiv_displayName">
@@ -4400,10 +4233,7 @@
                 <German>Einheiten töten (Zivil)</German>
                 <Chinesesimp>杀死单位（平民）</Chinesesimp>
                 <Spanish>Matar Unidades (Civil)</Spanish>
-
                 <Czech>Zabíjet jednotky (civilní)</Czech>
-
-
                 <French>Tuer des unités (civils)</French>
             </Key>
             <Key ID="STR_ENH_onPreviewDebug_killCursor_displayName">
@@ -4412,10 +4242,7 @@
                 <German>Cursor Target töten</German>
                 <Chinesesimp>杀死指针目标</Chinesesimp>
                 <Spanish>Matar cursor blanco</Spanish>
-
                 <Czech>Kill Cursor Target</Czech>
-
-
                 <French>Kill Cursor Target</French>
             </Key>
             <Key ID="STR_ENH_onPreviewDebug_killCursor_tooltip">
@@ -4424,10 +4251,7 @@
                 <German>Fügt einen Eintrag während der Szenariovorschau zum Aktionsmenü hinzu welche sofort die anvisierte Einheit tötet.</German>
                 <Chinesesimp>在场景预览中添加一个动作菜单的栏目，它会立即杀死玩家正在查看的单位。</Chinesesimp>
                 <Spanish>Agrega una entrada al menú de acción durante la vista previa del escenario que mata instantáneamente la unidad que el jugador está mirando.</Spanish>
-
                 <Czech>Přidá položku do nabídky akcí během náhledu scénáře, který okamžitě zabije jednotku, na kterou se přehrávač dívá.</Czech>
-                <French>Ajoute une entrée au menu Action lors de la prévisualisation du scénario qui tue instantanément l’unité que le joueur regarde.</French>
-
                 <French>Ajoute une entrée au menu des actions lors de la prévisualisation du scénario qui indique instantanément l’unité que le joueur regarde.</French>
 
             </Key>
@@ -4437,10 +4261,7 @@
                 <German>Einheiten töten (Unabhängige)</German>
                 <Chinesesimp>杀死单位（中立）</Chinesesimp>
                 <Spanish>Unidades de Matanza (Independientes)</Spanish>
-
                 <Czech>Kill Units (Nezávislý)</Czech>
-
-
                 <French>Tuer des unités (indépendant)</French>
             </Key>
             <Key ID="STR_ENH_onPreviewDebug_killEast_displayName">
@@ -4449,10 +4270,7 @@
                 <German>Einheiten töten (Osten)</German>
                 <Chinesesimp>杀死单位（东方）</Chinesesimp>
                 <Spanish>Matar Unidades (Este)</Spanish>
-
                 <Czech>Zabíjet jednotky (východ)</Czech>
-
-
                 <French>Tuer des unités (est)</French>
             </Key>
         </Container>
@@ -4464,11 +4282,8 @@
                 <English>About 3den Enhanced</English>
                 <German>Über 3den Enhanced</German>
                 <Spanish>Acerca de 3den Enhanced</Spanish>
-
                 <Chinesesimp>关于3den增强版</Chinesesimp>
                 <Czech>Asi 3denní vylepšení</Czech>
-
-
                 <French>À propos de 3den Enhanced</French>
             </Key>
             <Key ID="STR_ENH_folder_wiki">
@@ -4497,11 +4312,8 @@
                 <English>Utilities...</English>
                 <Spanish>Utilidades...</Spanish>
                 <German>Hilfsmittel...</German>
-
                 <Chinesesimp>公用事业...</Chinesesimp>
                 <Czech>Utility...</Czech>
-
-
                 <French>Utilitaires ...</French>
             </Key>
             <Key ID="STR_ENH_folder_placementTools">
@@ -4580,11 +4392,8 @@
                 <English>Help Translating...</English>
                 <German>Beim Übersetzen helfen...</German>
                 <Spanish>Ayuda para traducir ...</Spanish>
-
                 <Chinesesimp>帮助翻译......</Chinesesimp>
                 <Czech>Překlad ...</Czech>
-
-
                 <French>Aide à traduire ...</French>
             </Key>
             <Key ID="STR_ENH_about_FAQ">
@@ -4592,26 +4401,18 @@
                 <English>FAQ...</English>
                 <German>FAQ...</German>
                 <Spanish>PREGUNTAS MÁS FRECUENTES...</Spanish>
-
                 <Chinesesimp>常问问题...</Chinesesimp>
                 <Czech>FAQ ...</Czech>
-                <French>FAQ ...</French>
-
                 <French>FAQ...</French>
-
             </Key>
             <Key ID="STR_ENH_about_credits">
                 <Original>Credits...</Original>
                 <English>Credits...</English>
                 <German>Credits...</German>
                 <Spanish>Créditos ...</Spanish>
-
                 <Chinesesimp>积分...</Chinesesimp>
                 <Czech>Kredity ...</Czech>
                 <French>Crédits...</French>
-
-                <French>Credits...</French>
-
             </Key>
         </Container>
         <Container name="Tools">
@@ -4768,12 +4569,8 @@
                 <German>Im Raster anordnen...</German>
                 <Chinesesimp>网格图案...</Chinesesimp>
                 <Spanish>Patrón de cadrícula...</Spanish>
-
                 <Czech>Vzor sítě ...</Czech>
                 <French>Quadrillage...</French>
-
-                <French>Grid Pattern...</French>
-
             </Key>
             <Key ID="STR_ENH_tools_exportGUIBaseClasses">
                 <Original>Export GUI Base Classes (All)</Original>
@@ -4829,10 +4626,7 @@
                 <Spanish>Toca discos...</Spanish>
                 <German>Jukebox...</German>
                 <Chinesesimp>点唱机...</Chinesesimp>
-
                 <Czech>Hudební automat...</Czech>
-
-
                 <French>Juke-box...</French>
             </Key>
             <Key ID="STR_ENH_tools_printConfig">
@@ -4841,10 +4635,7 @@
                 <Spanish>Imprimir configuración...</Spanish>
                 <German>Config auslesen...</German>
                 <Chinesesimp>打印配置</Chinesesimp>
-
                 <Czech>Tisk Config ...</Czech>
-
-
                 <French>Imprimer la configuration ...</French>
             </Key>
             <Key ID="STR_ENH_tools_recompileFunctions">
@@ -4862,10 +4653,7 @@
                 <Spanish>Generador de plantillas de comandos de CfgDisabled...</Spanish>
                 <German>CfgDisabled Commands Template Generator...</German>
                 <Chinesesimp>CfgDisabled命令模板生成器...</Chinesesimp>
-
                 <Czech>CfgDisabled Příkazy Generátor šablon ...</Czech>
-
-
                 <French>Générateur de modèle de commandes CfgDisabled ...</French>
             </Key>
             <Key ID="STR_ENH_tools_showMissionStats">
@@ -4883,10 +4671,7 @@
                 <German>Chat leeren</German>
                 <Chinesesimp>清除聊天</Chinesesimp>
                 <Spanish>Vacie la conversacion</Spanish>
-
                 <Czech>Jasný rozhovor</Czech>
-
-
                 <French>Effacer le chat</French>
             </Key>
             <Key ID="STR_ENH_tools_batchReplace">
@@ -4895,12 +4680,8 @@
                 <German>Objekte ersetzten...</German>
                 <Chinesesimp>批量替换...</Chinesesimp>
                 <Spanish>Lote Reemplazar ...</Spanish>
-
                 <Czech>Nahradit dávku ...</Czech>
                 <French>Lot Remplacer ...</French>
-
-                <French>Batch Replace...</French>
-
             </Key>
             <Key ID="STR_ENH_tools_deleteEmptyLayers">
                 <Original>Delete Empty Layers</Original>
@@ -4908,10 +4689,7 @@
                 <German>Leere Ebenen löschen</German>
                 <Chinesesimp>删除空图层</Chinesesimp>
                 <Spanish>Eliminar capas vacías</Spanish>
-
                 <Czech>Odstranit prázdné vrstvy</Czech>
-
-
                 <French>Supprimer les couches vides</French>
             </Key>
             <Key ID="STR_ENH_tools_productInfo">
@@ -4938,10 +4716,7 @@
                 <Spanish>Cambio de nombre en lote...</Spanish>
                 <German>Objekte benennen...</German>
                 <Chinesesimp>对象名称...</Chinesesimp>
-
                 <Czech>Název objektů ...</Czech>
-
-
                 <French>Nommez des objets ...</French>
             </Key>
             <Key ID="STR_ENH_tools_textureFinder">
@@ -4950,10 +4725,7 @@
                 <German>Texturen suchen...</German>
                 <Chinesesimp>纹理查找器...</Chinesesimp>
                 <Spanish>Buscador de texturas ...</Spanish>
-
                 <Czech>Hledání textury ...</Czech>
-
-
                 <French>Texture Finder ...</French>
             </Key>
             <Key ID="STR_ENH_tools_colourPicker">
@@ -4962,10 +4734,7 @@
                 <German>Farbauswahl Werkzeug...</German>
                 <Chinesesimp>颜色取样器...</Chinesesimp>
                 <Spanish>Selector de color ...</Spanish>
-
                 <Czech>Výběr barvy ...</Czech>
-
-
                 <French>Color Picker ...</French>
             </Key>
             <Key ID="STR_ENH_tools_toggleSimpleObject">
@@ -4974,10 +4743,7 @@
                 <German>Zwischen einfachem Objekt umschalten</German>
                 <Chinesesimp>切换简单对象</Chinesesimp>
                 <Spanish>Alternar objeto simple</Spanish>
-
                 <Czech>Přepnout jednoduchý objekt</Czech>
-
-
                 <French>Basculer un objet simple</French>
             </Key>
         </Container>
@@ -5068,11 +4834,8 @@
                 <English>Code Optimisation...</English>
                 <German>Code-Optimierung...</German>
                 <Spanish>Optimización de código ...</Spanish>
-
                 <Chinesesimp>代码优化......</Chinesesimp>
                 <Czech>Optimalizace kódu ...</Czech>
-
-
                 <French>Optimisation du code ...</French>
             </Key>
         </Container>
@@ -5139,12 +4902,8 @@
                 <German>Positionen (2D) in Zwischenablage aufzeichnen</German>
                 <Chinesesimp>记录位置（2D）</Chinesesimp>
                 <Spanish>Posiciones de registro (2D)</Spanish>
-
                 <Czech>Poloha poloh (2D)</Czech>
-                <French>Log Positions (2D)</French>
-
                 <French>Enregistrer les positions (2D) dans le Presse-papiers</French>
-
             </Key>
             <Key ID="STR_ENH_contextMenu_logFaction">
                 <Original>Log Faction Names to Clipboard</Original>
@@ -5161,7 +4920,6 @@
                 <German>Positionen (3D) in Zwischenablage aufzeichnen</German>
                 <Chinesesimp>记录位置（3D）</Chinesesimp>
                 <Spanish>Posiciones de registro (3D)</Spanish>
-
                 <Czech>Poloha poloh (3D)</Czech>
                 <French>Log Positions (3D)</French>
             </Key>
@@ -5173,9 +4931,6 @@
                 <Spanish>Mostrar ID de entidad 3DEN</Spanish>
                 <Czech>Zobrazte IDENČ entity 3DEN</Czech>
                 <French>Afficher l'identifiant d'entité 3DEN</French>
-
-                <French>Enregistrer les positions (3D) dans le Presse-papiers</French>
-
             </Key>
             <Key ID="STR_ENH_contextMenu_measureDistance">
                 <Original>Distance measurement</Original>
@@ -5192,10 +4947,7 @@
                 <German>Objektinfo. in Zwischenablage aufzeichnen</German>
                 <Chinesesimp>记录对象信息</Chinesesimp>
                 <Spanish>Registrar información de objeto</Spanish>
-
                 <Czech>Informace o objektu protokolu</Czech>
-
-
                 <French>Informations sur les objets de journalisation</French>
             </Key>
             <Key ID="STR_ENH_contextMenu_logGridPosition">
@@ -5204,10 +4956,7 @@
                 <German>Rasterposition in Zwischenablage aufzeichnen</German>
                 <Chinesesimp>记录网格位置</Chinesesimp>
                 <Spanish>Posición de la cuadrícula de registro</Spanish>
-
                 <Czech>Poloha mřížky protokolu</Czech>
-                <French>Log Grid Position</French>
-
                 <French>Log Grid Position to Clipboard</French>
             </Key>
             <Key ID="STR_ENH_contextMenu_logMissionAttributes">
@@ -5216,7 +4965,6 @@
                 <German>Missionsattribute in Zwischenablage aufzeichnen</German>
                 <Chinesesimp>记录网格位置</Chinesesimp>
                 <French>Enregistrer les attributs de mission dans le Presse-papiers</French>
-
             </Key>
         </Container>
     </Package>
