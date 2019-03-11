@@ -6,7 +6,7 @@ To ease the process of creating translations and editing stringtable.xml files, 
 
 For more information, please visit the following link:
 
-https://github.com/bux/tabler/releases/tag/v0.7.0
+https://github.com/bux/tabler/releases
 
 
 # How to?
